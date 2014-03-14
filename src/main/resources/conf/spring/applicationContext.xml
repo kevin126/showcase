@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.0.xsd">
+
+    <!-- 启用支持Annotation注解方式的Bean管理 -->
+    <context:component-scan base-package="com.tekview"></context:component-scan>
+
+    <!-- J2SE环境下测试 关联文件 persistence.xml -->
+
+    <bean id="entityManagerFactory"
+          class="org.springframework.orm.jpa.LocalEntityManagerFactoryBean">
+        <property name="persistenceUnitName" value="default"></property>
+    </bean>
+
+    <bean id="txManger" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <!-- run on Jboss with Transaction start -->
+    <!-- 数据源 -->
+    <!--<jee:jndi-lookup id="dataSource" jndi-name="java:/UUMSDS" />-->
+    <!-- 获取JPA工厂 -->
+    <!--<bean id="entityManagerFactory"-->
+    <!--class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
+    <!--<property name="persistenceUnitName" value="default" />-->
+    <!--<property name="dataSource" ref="dataSource" />-->
+    <!--<property name="persistenceXmlLocation"-->
+    <!--value="classpath:META-INF/persistence.xml" />-->
+    <!--<property name="loadTimeWeaver">-->
+    <!--<bean-->
+    <!--class="org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver" />-->
+    <!--</property>-->
+    <!--</bean>-->
+    <!-- 事务配置 -->
+    <!--<bean id="txManger"-->
+    <!--class="org.springframework.transaction.jta.JtaTransactionManager" >-->
+    <!--<property name="transactionManagerName"> -->
+    <!--<value>java:/TransactionManager</value> -->
+    <!--</property> -->
+    <!--</bean>-->
+    <!-- run on Jboss with Transaction end -->
+
+    <tx:annotation-driven transaction-manager="txManger"/>
+    <aop:config>
+        <aop:pointcut id="servicesPointcut"
+                      expression="execution(* com.tekview.apex.uums.*.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice"
+                     pointcut-ref="servicesPointcut"/>
+    </aop:config>
+    <tx:advice id="txAdvice" transaction-manager="txManger">
+        <tx:attributes>
+            <tx:method name="add*" propagation="REQUIRED"/>
+            <tx:method name="save*" propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="recommend*" propagation="REQUIRED"/>
+            <tx:method name="cancel*" propagation="REQUIRED"/>
+            <tx:method name="get*" propagation="REQUIRED"
+                       read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+    <!-- 使用annotation 自动注册bean -->
+    <context:component-scan base-package="com.tekview.apex.*"/>
+    <context:annotation-config/>
+</beans>

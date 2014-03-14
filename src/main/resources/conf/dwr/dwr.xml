@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC
+        "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+        "http://directwebremoting.org/schema/dwr20.dtd">
+
+<dwr>
+    <allow>
+   		<convert converter="exception"
+			match="com.tekview.apex.uums.base.OceanRuntimeException">
+			<param name='include' value='message,lineNumber,errorParam' />
+		</convert>
+
+		<convert converter="exception" match="java.lang.Exception">
+			<param name='include' value='message,lineNumber' />
+		</convert>
+		
+        <convert match="com.tekview.apex.uums.model.User" converter="bean"/>
+        <convert match="com.tekview.apex.uums.model.UserDept" converter="bean"/>
+        <convert match="com.tekview.apex.uums.model.Role" converter="bean"/>
+        <convert match="com.tekview.apex.uums.model.UserMaintenanceGroup" converter="bean"/>
+        <convert match="com.tekview.apex.uums.model.Permission" converter="bean"/>
+        <convert match="com.tekview.apex.uums.model.EmailServerConfig"	converter="bean" />
+        <create creator="spring" javascript="UserService">
+            <param name="beanName" value="userService"/>
+            <include method="getUserWithRolesById"/>
+        </create>
+        <create creator="spring" javascript="SecurityService">
+			<param name="beanName" value="securityService" />
+		</create>
+		<create creator="spring" javascript="EmailService">
+			<param name="beanName" value="emailService" />
+		</create>
+    </allow>
+    <signatures>
+        <![CDATA[
+		       import java.util.List;
+               import com.tekview.apex.uums.model.User;
+               import com.tekview.apex.uums.model.UserDept;
+               import com.tekview.apex.uums.model.Role;
+               import com.tekview.apex.uums.model.UserMaintenanceGroup;
+               UserService.getUserWithRolesById(Long id);
+            ]]>
+            <![CDATA[
+                import java.util.List;
+                import java.util.HashMap;
+                import com.tekview.apex.uums.model.UserDept;
+               	SecurityService.getAllDepartmentNames(String parentId);
+               	SecurityService.getAllWorkGroupNamesTree(String parentId);
+               	SecurityService.synUserOssToCa();
+            ]]>
+            <![CDATA[
+                import com.tekview.apex.uums.model.EmailServerConfig;
+               	EmailService.testEmailServer(EmailServerConfig config);
+            ]]>
+    </signatures>
+</dwr>

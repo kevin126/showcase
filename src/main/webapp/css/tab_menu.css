@@ -1,0 +1,102 @@
+﻿.help {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-family: 黑体, Times, TimesNR, 'New Century Schoolbook', Georgia,
+		'New York', serif;
+	font-size: 12px;
+}
+
+.help A {
+	color: #000000;
+}
+
+.welcome {
+	position: absolute;
+	font-family: Times, TimesNR, 'New Century Schoolbook', Georgia,
+		'New York', serif;
+	font-size: 14px;
+	top: 50px;
+	left: 500px;
+}
+
+.cx_tabmenu {
+	BACKGROUND-image: url(../images/index_02.gif);
+	PADDING-TOP: 2px;
+	margin-top: -25px
+}
+
+#ddimagetabs {
+	PADDING-LEFT: 10px
+}
+
+#ddimagetabs A {
+	PADDING-RIGHT: 20px;
+	DISPLAY: inline;
+	PADDING-LEFT: 20px;
+	FONT-SIZE: 15px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	COLOR: #000000;
+	LINE-HEIGHT: 33px;
+	MARGIN-RIGHT: 2px;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: 黑体, Verdana, Arial, Helvetica, sans-serif;
+	HEIGHT: 33px;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: none;
+	width: 135px;
+}
+
+#ddimagetabs A:hover {
+	COLOR: #000000;
+}
+
+#ddimagetabs A.current {
+	BACKGROUND: url(../images/bg.gif) no-repeat center bottom;
+	COLOR: #000000;
+}
+
+#tabcontentcontainer {
+	BACKGROUND: url(../images/index_03.gif) repeat-x;
+	WIDTH: 100%;
+	HEIGHT: 27px;
+	COLOR: #000000;
+}
+
+#logoarea {
+	BACKGROUND: url(../images/Apex_OssWorks_Logo.gif) no-repeat;
+	WIDTH: 100%;
+	HEIGHT: 97px;
+	background-position: 0 -21px
+}
+
+#logoarea2 {
+	BACKGROUND: url(../images/self_servicedesk_logo.png) no-repeat;
+	WIDTH: 100%;
+	HEIGHT: 80px
+}
+
+.tabcontent {
+	DISPLAY: none;
+	PADDING-TOP: 4px
+}
+
+.tabcontent A {
+	BACKGROUND: url(../images/bz.gif) no-repeat center;
+	COLOR: #000000;
+	background-position: 0 45%;
+	padding: 0 10 0 20;
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	MARGIN-LEFT: 3px;
+	CURSOR: pointer;
+	LINE-HEIGHT: 18px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	HEIGHT: 18px;
+	TEXT-DECORATION: none
+}
+
+.tabcontent A:hover {
+	COLOR: #000000
+}

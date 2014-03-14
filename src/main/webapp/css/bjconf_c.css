@@ -1,0 +1,6 @@
+@charset('utf-8');
+body{ background:#fff}
+.popmain{ padding:40px 0 20px 40px; height:auto; overflow:hidden; text-align:center; clear:both}
+.bjconf_xm{ width:280px;text-align: center; height:auto; overflow:hidden; float:left; padding:20px 0;_padding:10px 0}
+.bjconf_xm ul li{ font:13px/28px normal}
+.bj_bn{ padding:20px 0; height:auto; overflow:hidden;text-align:center;clear:both}

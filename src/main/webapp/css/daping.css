@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; border:1px #C5CFDC solid;background:url(../images/zhongyuan/2_r22_c2.jpg) bottom repeat-x}
+.ping_waimian{ border:#fff 1px solid;width:auto; height:100%;}
+.pingtop_c{ width:auto; height:95px;*height:96px; overflow:hidden; background:url(../images/zhongyuan/8r2_c2.jpg) repeat-x bottom}
+.ping_biaoti{ border-top:1px solid #fff; background:url(../images/zhongyuan/y2_r4_c2.jpg) repeat-x top; text-align:center; padding:58px 68px 20px}
+.biao_waikuang_c{ padding:0 20px 45px;width:auto; height:auto; overflow:hidden;}
+.table_e{ border:1px solid #C5CFDC;width:auto; height:auto; overflow:hidden;}
+.table_e_tit{ height:64px; background:url(../images/zhongyuan/e5.jpg) repeat-x bottom; overflow:hidden; border:1px solid #fff; padding:0 18px}
+.table_e_tit li{ float:left; line-height:64px;_padding:22px 0;_line-height:14px; overflow:hidden}
+.da_wenzi{ font:100 24px/64px "黑体";_font:100 24px/26px "黑体"; padding:0 14px;filter:chroma( color=#036);}
+.daiban{ text-align:right; padding:8px}
+.dapin_space{ width:auto; height:0; border-bottom:1px solid #C5CFDC; clear:both; overflow:hidden}
+.cheng_tit_th{ height:43px; border:1px solid #fff; overflow:hidden; background:url(../images/zhongyuan/s_r14_c7.jpg) bottom repeat-x; text-align:center; line-height:43px}
+.cheng_td_right{ border-right:1px solid #C5CFDC}
+.cheng_td_bottom{ border-bottom:1px solid #C5CFDC}
+.xingming_ren{ background:url(../images/zhongyuan/26_c13.jpg); padding:32px 14px 8px 12px; height:auto; overflow:hidden;_height:1px;_overflow:inherit; border:1px solid #fff}
+.xingming_ren ul{ height:38px; width:auto; margin:26px 0; text-align:center; background:#fff}
+.xingming_ren ul li{height:38px; background:#fff url(../images/zhongyuan/5_r18_c18.jpg) center no-repeat; font:100 25px/36px Tahoma;*font:100 26px/42px "黑体", Arial, Tahoma;_font:100 25px/36px Tahoma;text-align:center;color:#036; width:auto;filter:chroma( color=#036);}
+
+.xingming_ren2{ background:#fff; padding:32px 14px 8px 12px; height:auto; overflow:hidden; border:1px solid #fff}
+.xingming_ren2 ul{ height:38px; width:auto; margin:26px 0; text-align:center}
+.xingming_ren2 ul li{height:38px; background:#fff url(../images/zhongyuan/5_r18_c18.jpg) center no-repeat; font:100 25px/36px Tahoma;*font:100 26px/42px "黑体", Arial, Tahoma;_font:100 25px/36px Tahoma; text-align:center;color:#036; width:auto;filter:chroma( color=#036);}
+.foot_table{ height:100px; background:url(../images/zhongyuan/2_r22_c2.jpg) bottom repeat-x; border:1px solid #fff}
+.x_liem{ background: url(../images/zhongyuan/f-1.gif) no-repeat; background-position:center; padding-left:4px;margin-left:4px;}
+.x_liem:hover,.x_liem:visited{ text-decoration:none}
+.xingming_ren2 i{background:url(../images/new_top/buju2_r6_c4.jpg) no-repeat; width:90px; height:36px; display:block; text-align:center;font:100 20px/36px "黑体";*font:100 25px/36px "黑体";filter:chroma( color=#036);_font:100 20px/36px "黑体";}
+.rue_bn{ position:absolute; right:30px; top:30px}
+.re_b{ width:40px; height:40px; overflow:hidden; background:url(../images/zhongyuan/8r3_c27.jpg) no-repeat}
+.re_b2{ width:40px; height:40px; overflow:hidden; background:url(../images/zhongyuan/8r3_c272.jpg) no-repeat}

@@ -1,0 +1,20 @@
+@charset('utf-8');
+body{ background:#EFF3F5}
+.popmain{ padding:0; height:auto; overflow:hidden}
+.chaxtj{ height:auto; width:300px; float:left;padding:0 12px 0 12px; height:auto}
+.chaxtj_ul_li{ border-bottom:1px dotted #7F96C0; padding:0 0 0 24px; line-height:30px}
+.chaxtj_ul_li_on{ border-bottom:1px dotted #f00; padding:0 0 0 24px; line-height:30px; background:#FF6 url(../images/works/pop_tb.gif) no-repeat 6px 8px}
+.chaxtj ul li i{ color:#F00; font:12px/30px normal}
+.ligengduo{ text-align:right; height:28px;font:12px/28px normal}
+.ligengduo a{ text-decoration:underline}
+.right_yuanyin{ float:right; width:560px; height:620px; overflow:hidden}
+.shuge{ width:570px; float:right; padding:0 0 0 12px;background:url(../images/works/oss2_r30_c27.jpg) repeat-y}
+.yuan_title{ font:700 12px/30px normal; padding-left:24px;color:#036}
+.yuan_title i{color:#F00; font:700 12px/30px normal}
+.yuanyin_counter{ width:auto; font:100 12px/26px normal; padding-left:24px;height:590px; overflow:auto}.pop_tiaojian{ padding:12px; height:auto; overflow:hidden}
+.pop_tiaojian ul{ width:auto; height:auto; overflow:hidden; clear:both}
+.pop_tiaojian ul li{ float:left; line-height:32px}
+.pop_biaot{ text-align:right; width:84px; font-size:12px;}
+.tj_quick{ width:20px; overflow:hidden;}
+.pop_ss_bn{width:auto; height:auto; overflow:hidden; text-align:center; padding:8px 0 0}
+.pop_ceng{ width:auto; text-align:center; clear:both; padding-top:10px}

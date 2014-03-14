@@ -1,0 +1,97 @@
+body { font-size: 12px; color: #2a2a2a; font-family: Verdana, Geneva, sans-serif; background-image: url(../images/newui/body_bg.jpg); background-repeat: repeat-x; background-color:#FFF; }
+
+.logo, .logo a,logo a:hover { background-image: url(../images/logo.jpg); height: 56px; width: 370px; position: absolute; white-space: pre; text-decoration:none; }
+.logout { background-image: url(../images/logout_bg.jpg); float: right; height: 30px; width: 297px; line-height: 30px; text-align: center; font-weight: bold; color: #FFF; z-index: 199; margin-right: 5px; }
+.logout a { color:#FFF }
+.tishi { height: 14px; margin-top: 42px; margin-left: 328px; position: absolute; color: #FFF; z-index: 250; font-size: 12px; }
+
+.company { margin-top: 16px; margin-left: 328px; position: absolute; color: #FFF; z-index: 250; font-size: 18px; font-weight: bold; }
+.wrapper { overflow: hidden; width: 100%; background-image: url(../images/newui/ossworks_bg.jpg); background-repeat: no-repeat; height: 126px; }
+.nav1 {margin-top: 60px; margin-left: 20px; height: 64px; overflow: hidden; }
+.fenge { background-repeat: no-repeat; float: left; height: 48px; width: 5px; margin-top: 5px; margin-right: 8px; margin-left: 8px; background-image: url(../images/newui/ge.jpg); }
+.menu0 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu1Bg.jpg); float: left; }
+.menu0 a:hover { background-repeat: no-repeat; background-image: url(../images/newui/menu1.jpg); }
+.menu1 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu2Bg.jpg); background-repeat: no-repeat; float: left; }
+.menu1 a:hover { background-image: url(../images/newui/menu2.jpg); background-repeat: no-repeat; }
+.menu2 a { height: 64px; width: 68px; background-image: url(../images/newui/menu3Bg.jpg); background-repeat: no-repeat; float: left; }
+.menu2 a:hover { background-image: url(../images/newui/menu3.jpg); background-repeat: no-repeat; }
+.menu3 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu4Bg.jpg); background-repeat: no-repeat; float: left; }
+.menu3 a:hover { background-image: url(../images/newui/menu4.jpg); background-repeat: no-repeat; }
+.menu4 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu5Bg.jpg); background-repeat: no-repeat; float: left; }
+.menu4 a:hover { background-image: url(../images/newui/menu5.jpg); background-repeat: no-repeat; }
+.menu5 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu6Bg.jpg); background-repeat: no-repeat; float: left; }
+.menu5 a:hover { background-image: url(../images/newui/menu6.jpg); background-repeat: no-repeat; }
+.menu6 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu7Bg.jpg); float: left; }
+.menu6 a:hover { background-image: url(../images/newui/menu7.jpg); background-repeat: no-repeat; }
+.menu7 a { height: 64px; width: 84px; background-repeat:no-repeat; background-image: url(../images/newui/menu8Bg.jpg);  float: left; }
+.menu7 a:hover { background-image: url(../images/newui/menu8.jpg); background-repeat: no-repeat; }
+.menu8 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu9Bg.jpg);  float: left; }
+.menu8 a:hover { background-image: url(../images/newui/menu9.jpg); background-repeat: no-repeat; }
+.menu9 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu10Bg.jpg);  float: left; }
+.menu9 a:hover { background-image: url(../images/newui/menu10.jpg); background-repeat: no-repeat; }
+.menu10 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu11Bg.jpg);  float: left; }
+.menu10 a:hover { background-image: url(../images/newui/menu11.jpg); background-repeat: no-repeat; }
+.menu11 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu12Bg.jpg);  float: left; }
+.menu11 a:hover { background-image: url(../images/newui/menu12.jpg); background-repeat: no-repeat; }
+.menu12 a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/newui/menu13Bg.jpg);  float: left; }
+.menu12 a:hover { background-image: url(../images/newui/menu13.jpg); background-repeat: no-repeat; }
+.m0_selected { height: 64px; width: 68px; background-repeat: no-repeat; background-image: url(../images/newui/menu1.jpg); float: left; }
+.m0_selected a { height: 64px; width: 68px; background-repeat: no-repeat; background-image: url(../images/newui/menu1.jpg); float: left; }
+.m1_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu2.jpg); background-repeat: no-repeat; }
+.m1_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu2.jpg); background-repeat: no-repeat; }
+.m2_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu3.jpg); background-repeat: no-repeat; }
+.m2_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu3.jpg); background-repeat: no-repeat; }
+.m3_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu4.jpg); background-repeat: no-repeat; }
+.m3_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu4.jpg); background-repeat: no-repeat; }
+.m4_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu5.jpg); background-repeat: no-repeat; }
+.m4_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu5.jpg); background-repeat: no-repeat; }
+.m5_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu6.jpg); background-repeat: no-repeat; }
+.m5_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu6.jpg); background-repeat: no-repeat; }
+.m6_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu7.jpg); background-repeat: no-repeat; }
+.m6_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu7.jpg); background-repeat: no-repeat; }
+.m7_selected {height: 64px; width: 84px; float: left; background-image: url(../images/newui/menu8.jpg); background-repeat: no-repeat; }
+.m7_selected a {height: 64px; width: 84px; float: left; background-image: url(../images/newui/menu8.jpg); background-repeat: no-repeat; }
+.m8_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu9.jpg); background-repeat: no-repeat; }
+.m8_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu9.jpg); background-repeat: no-repeat; }
+.m9_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu10.jpg); background-repeat: no-repeat; }
+.m9_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu10.jpg); background-repeat: no-repeat; }
+.m10_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu11.jpg); background-repeat: no-repeat; }
+.m10_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu11.jpg); background-repeat: no-repeat; }
+.m11_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu12.jpg); background-repeat: no-repeat; }
+.m11_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu12.jpg); background-repeat: no-repeat; }
+.m12_selected {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu13.jpg); background-repeat: no-repeat; }
+.m12_selected a {height: 64px; width: 68px; float: left; background-image: url(../images/newui/menu13.jpg); background-repeat: no-repeat; }
+
+.zeroselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url( ../images/gongdanguanli.jpg);
+float: left; }
+.oneselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/fuwutai.jpg); background-repeat: no-repeat; float: left;  }
+.twoselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/ziyuanjiankong.jpg); background-repeat: no-repeat; float: left; }
+.threeselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/yunweiguanli.jpg); background-repeat: no-repeat; float: left; }
+.fourselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/tongjifenxi.jpg); background-repeat: no-repeat; float: left; }
+.fiveselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/zichan.jpg); background-repeat: no-repeat; float: left; }
+.sixselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/zhishiku.jpg); float: left; }
+.sevenselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/xitongshezhi.jpg);  float: left;}
+
+.eight a { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/zhibanguanli_bg.jpg);  float: left; }
+.eight a:hover { background-image: url(../images/zhibanguanli.jpg); background-repeat: no-repeat; }
+.eightselected { height: 64px; width: 68px; background-repeat:no-repeat; background-image: url(../images/zhibanguanli.jpg);  float: left;}
+.nav2 { width: 610px; margin-top: 147px; margin-left: 50px; position: absolute; height: 30px; overflow: hidden; }
+.nav2 li, .nav2 li a { margin-right: 3px; height: 30px; width: 92px; float: left; text-decoration: none; background-repeat: no-repeat; }
+.nav2 li.show, .nav2 li.show a { background-image: url(../images/nav2_show.gif); line-height: 30px; text-align: center; font-weight: bold; color: #15428B; }
+.nav2 li.noshow, .nav2 li.noshow a { background-image: url(../images/nav2_noshow.gif); color: #595959; text-align: center; line-height: 30px; font-weight: normal; white-space: normal; }
+.research { width: 310px; height: 20px; clear: both; float: right; margin-top: 3px; }
+
+.quick_operation { width: 150px; margin-top: 20px; position: absolute; border: 1px solid #000; z-index: 99999; margin-left: 0px; 
+background-color: #F3FDE2; }
+
+.quick_inter { background-color: #FFF; background-image: url(../images/top/quick_bg.jpg); background-repeat: repeat-x; }
+.quick_title { border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #537d1e; height: 24px; width: 90%; margin-right: auto; margin-left: auto; font-size: 14px; line-height: 24px; font-weight: bold; color: #09F; padding-top: 5px; }
+.q1 { width: 100px; float: left; margin-left: 20px; margin-top: 5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #537d1e; }
+.q1 li a { font-size: 12px; font-weight: normal; color: #333; display: block; line-height: 20px; padding-left:  15px; background-image: url(../images/top/quick_icon1.gif); background-repeat: no-repeat; background-position: 4px center; }
+.q1 li a:hover { background-image: url(../images/top/quick_mouseover.gif); background-repeat: no-repeat; text-decoration: none; padding-left: 15px; background-position: left center; }
+*html .quick_operation{width:400px; z-index: 99999}
+*html .q1 { width: 100px; float: left; border-right-width: 1px; border-right-style: solid; border-right-color: #537d1e; height: 50px; margin-left: 15px; margin-top: 5px; }
+*html .q1 li a { font-size: 12px; font-weight: normal; color: #333; display: block; line-height: 18px; padding-left: 15px; background-image: url(../images/top/quick_icon1.gif); background-repeat: no-repeat; background-position: 4px center; }
+*html .q1 li a:hover { background-image: url(../images/top/quick_mouseover.gif); background-repeat: no-repeat;  text-decoration: none; padding-left: 15px; background-position: left center; }
+.fontWhite { color: #FFF; }
+.title2 a { color: #000; }

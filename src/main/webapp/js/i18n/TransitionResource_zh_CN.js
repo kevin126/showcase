@@ -1,0 +1,66 @@
+var Transition_I18N = {
+	/******************公共的transition************************************/
+	transition_create : '创建工单',
+	transition_take : '承接（转派）工单',
+	transition_assign : '转派工单',
+	transition_resolve : '解决工单',
+	transition_refuse : '拒绝工单',
+	transition_reopen : '重开工单',
+	transition_close : '关闭工单',
+	/**************************事件的transition*****************************/
+	transition_start : '提交表单',
+	ppro_start_transition : '创建工单',
+	transition_create_assign : '创建并转派工单',
+	
+	/**************************问题的transition*****************************/
+	transition_knownerror : '结束调查',
+	transition_evaluation_solution : '提交方案',
+	transition_survey : '开始调查',
+	transition_make_solution : '制定方案',
+	transition_reject_solution : '拒绝方案',
+	transition_nochange : '批准方案',
+	transition_change : '批准方案',
+	transition_reSubmit : '重新提交',
+	transition_reject : '拒绝工单',
+	
+	/**************************发布的transition*****************************/
+	transition_evaluate : '提交审批',
+	transition_approve : '同意工单',
+	transition_distribute : '分配任务',
+	transition_test : '提交测试',
+	transition_end_test : '反馈测试结果',
+	transition_run : '试运行',
+	transition_resolveTask : '完成任务',
+	
+	/**************************变更的transition*****************************/
+	rfc_start:'变更开始', 
+	rfc_close:'关闭工单',
+	rfc_pass:'同意变更',
+	rfc_resolve_trs:'实施完成',
+	rfc_audit_reject:'变更委员会否决',
+	rfc_check_pass:'评审通过',
+	rfc_committee_pass:'变更委员会通过',
+	rfc_resubmit:'重新提交评估',
+	rfc_checking_rejected:'评审未通过',
+	rfc_create:'创建变更',
+	rfc_evaluate:'评估中',
+	rfc_submit_to_evaluate:'提交评估',
+	rfc_vital:'重大变更',
+	rfc_committee_auditing:'委员会审批',
+	transition_evalpass_cmdb:'变更配置项',
+	transition_cmdb_checking:'提交评审',
+	rfc_implementing:'实施中',
+	rfc_reject:'否决变更',
+	transition_reopen_rfc : '评审（拒绝）',
+	transition_resolve_rfc: '评审（通过）',
+	transition_re_implementing:'重新提交实施',
+	
+	rfc_implementing_transition_resolve : '变更工单完成实施',
+	rfc_implementing_transition_resolve_rfc : '变更工单完成实施',
+	rfc_committee_auditing_rfc_audit_reject : ' 完成变更委员会审批完成，否决变更',
+	rfc_committee_auditing_rfc_committee_pass : '完成变更委员会审批完成，通过变更',
+	transition_evalpass_checking : '提交评审',
+	transition_rfa_checking : '提交评审',
+	transition_re_checking : '重新提交评审',
+	transition_evalpass_rfa : '启动发布流程'
+}

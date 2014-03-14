@@ -1,0 +1,42 @@
+@charset('utf-8');
+body{background:#EFF3F5}
+
+#tab10{background:#fff;height:auto;width:auto; text-align:left}
+#tab10 ol{display:none;font:100 12px/27px Arial; width:auto}
+#tab10 ol li{}
+#tab10 ol.block{display:block; width:100%}
+#menu10 {height:31px; width:auto; text-align:center;font:100 12px/31px Arial; background:url(../images/new_top/tyc2.jpg) repeat-x bottom}
+#menu10 h2{float:left;width:8px; height:31px;}
+#menu10 h3{float:left;cursor:pointer;font:100 12px/30px Arial; background:url(../images/new_top/561_r2_c3.jpg) repeat-x; overflow:hidden; height:30px; width:auto;*width:158px;}
+#menu10 h3 a{width:auto;*width:108px; overflow:hidden; height:30px; font:100 12px/30px Arial;text-decoration:none; color:#006699;float:left;overflow:hidden;padding-right:0px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis; background:url(../images/new_top/d1.gif) no-repeat 5px 6px; padding:0 0 0 28px; text-align:left}
+#menu10 h3:after{content:"..."!important;padding-right:6px}
+#menu10 h3.hover{height:31px;font:100 12px/31px arial;float:left;background:url(../images/new_top/s3_c4.jpg) repeat-x;}
+#menu10 h3.hover a{float:left;width:auto;*width:108px;font:100 12px/28px Arial;color:#113C55;text-decoration:none; background:url(../images/new_top/d1.gif) no-repeat 5px 6px; padding:0 6px 0 28px; text-align:left}
+#menu10 h3.hover:after{content:""!important;}
+
+#menu10 h3.hover div.tab_q{float:left;width:2px; height:31px; background:url(../images/new_top/41_r2_c22.jpg) no-repeat;}
+#menu10 h3.hover div.tab_h{ float:right;width:2px; height:31px; background:url(../images/new_top/t1_r2_c32.jpg) no-repeat;}
+.tab_q{ float:left;width:2px; height:33px; background:url(../images/new_top/41_r2_c2.jpg) no-repeat}
+.tab_h{ float:right;width:2px; height:32px; background:url(../images/new_top/t1_r2_c3.jpg) no-repeat}
+
+
+.tiaojian_c{ background:#fff url(../images/new_top/g1_r2_c2.jpg) repeat-x bottom;width:auto; height:auto; overflow:hidden; padding:20px}
+.td_css_qx{background:#fff url(../images/new_top/g1_r2_c2.jpg) repeat-x bottom; border-bottom:1px solid #fff;border-right:1px solid #fff}
+
+.tianjia_ues2{ border-bottom:1px dotted #999; width:100%; float:none; margin-bottom:14px; height:66px; overflow:hidden}
+.fenzhi_ren{float:left; height:66px; overflow:hidden; line-height:50px; padding:0 18px 0 8px}
+.fenzhi_beizhu{float:left;height:66px; overflow:hidden; line-height:50px;}
+.fenzhi_fzr{float:left; height:66px; overflow:hidden; line-height:50px; padding:0 18px 0 8px}
+.fenzhi_del{float:right;height:66px; overflow:hidden; line-height:50px; padding:12px 8px 0 8px}
+
+.tianjia_ues3{ border-bottom:1px dotted #999; width:100%; float:none; margin-bottom:4px; height:32px; overflow:hidden}
+.fenzhi_ren2{float:left; height:32px; overflow:hidden; line-height:28px; padding:0 18px 0 8px; width:86px}
+.fenzhi_beizhu2{float:left;height:32px; overflow:hidden; line-height:28px;; width:400px}
+.fenzhi_fzr2{float:left; height:28px; overflow:hidden; line-height:24px; padding:0 18px 0 8px; width:86px}
+.fenzhi_del2{float:left;height:32px; overflow:hidden; line-height:30px; padding:0px 8px 0 8px}
+.tianjia_ues4{ border-bottom:0px dotted #999; width:100%; float:none; margin-bottom:6px; height:29px; overflow:hidden; background:url(../images/new_top/dfr10_c2.jpg) bottom}
+.fenzhi_ren3{float:left; height:29px; overflow:hidden; line-height:29px; padding:0 18px 0 8px; width:86px}
+.fenzhi_beizhu3{float:left;height:29px; overflow:hidden; line-height:29px; width:400px}
+.fenzhi_fzr3{float:left; height:29px; overflow:hidden; line-height:29px; padding:0 18px 0 8px; width:86px}
+.fenzhi_del3{float:left;height:29px; overflow:hidden; line-height:29px; padding:0px 8px 0 8px}
+.biao_lie_ge32{ background:url(../images/new_top/sdr11_c4.jpg) no-repeat; width:3px; height:26px; float:left}

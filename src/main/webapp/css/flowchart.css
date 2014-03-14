@@ -1,0 +1,16 @@
+body { background-image: url(../images/flowchart/liucheng_bg.jpg); background-repeat: repeat; background-color: #FAF6C7; }
+
+.flowchart_start { background-image: url(../images/flowchart/flowchart_start.gif); height: 48px; width: 48px; overflow: hidden; cursor: pointer; background-repeat: no-repeat; }
+.flowchart_finish { background-image: url(../images/flowchart/flowchart_finish.gif); height: 48px; width: 48px; overflow: hidden; cursor: pointer; background-repeat: no-repeat; }
+.flowchart_history { background-image: url(../images/flowchart/flowchart_history.gif); height: 40px; width: 51px; overflow: hidden; cursor: pointer; background-repeat: repeat; }
+.flowchart_current { height: 51px; width: 64px; overflow: hidden; cursor: pointer; }
+.flowchart_future { background-image: url(../images/flowchart/flowchart_future.gif); height: 40px; width: 52px; overflow: hidden; cursor: pointer; background-repeat: no-repeat; }
+.flowchart_box { width: 403px; overflow: hidden; height: 201px; }
+.flowchart_title { background-image: url(../images/flowchart/flowbox_up.gif); height: 25px; width: 403px; overflow: hidden; }
+
+.flowchart_content { background-image: url( ../images/flowchart/flowbox_middle.jpg; height: 227px; margin-left: 100px; background-image: url(../images/flowchart/flowbox_middle.jpg); width: 504px; background-color: #FFF; background-repeat: no-repeat; margin-top: 100px; }
+.flowchart_foot { background-image: url(../images/flowchart/flowbox_down.gif); height: 11px; margin-left: 42px; width: 504px; }
+.flowchart_list { background-image: url(../images/flowchart/flowbox_middle.jpg); margin-left: 29px; background-repeat: no-repeat; height: 176px; overflow: auto; width: 374px; }
+.flowchart_list li { height: 40px; }
+.flowchart_headline { border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #999; float: left; width: 95%; margin-left: 10px; overflow: hidden; font-size: 12px; }
+.flowchart_serialnumber { background-image: url(../images/shizi_bg.jpg); background-repeat: repeat-x; border: 1px solid #d27d00; height: 14px; font-weight: bold; line-height: 14px; width: 20px; float: left; text-align: center; font-size: 11px; margin-left: 20px; }

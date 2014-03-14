@@ -1,0 +1,26 @@
+.portal_block { float: left; height: 295px; width: 410px; overflow: hidden; margin-top: 5px; margin-left: 5px; }
+.portal_title { background-image: url(../images/portal/potal_bg.gif); background-repeat: repeat-x; height: 30px; border: 1px solid #a2aeba; }
+.portal_name { border-left-width: 1px; border-left-style: solid; border-left-color: #FFF; height: 30px; float: left; width: 200px; line-height: 30px; padding-left: 10px; font-size: 13px; font-weight: bold; color: #134a7a; overflow: hidden; }
+.portal_operation { float: right; margin-right: 5px; width: 160px; }
+.portal_content { border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: #a2aeba; border-bottom-color: #a2aeba; border-left-color: #a2aeba; padding-top: 5px; height: 255px; }
+.portal_operation_close a { background-image: url(../images/portal/close.gif); background-repeat: no-repeat; float: right; height: 18px; width: 43px; cursor: pointer; }
+.portal_operation_close a:hover { background-image: url(../images/portal/close_2.gif); }
+.portal_operation_max a { background-image: url(../images/portal/max.gif); background-repeat: no-repeat; float: right; height: 18px; width: 24px; cursor: pointer; }
+.portal_operation_max a:hover { background-image: url(../images/portal/max_2.gif) }
+.portal_operation_min a { background-image: url(../images/portal/min.gif); background-repeat: no-repeat; float: right; height: 18px; width: 25px; cursor: pointer; }
+.portal_operation_min a:hover { background-image: url(../images/portal/min_2.gif); }
+.portal_operation_refresh a { background-image: url(../images/portal/refresh.gif); background-repeat: no-repeat; float: right; height: 18px; width: 25px; cursor: pointer; }
+.portal_operation_refresh a:hover { background-image: url(../images/portal/refresh_2.gif); }
+.portal_operation_edit a { background-image: url(../images/portal/edit.gif); background-repeat: no-repeat; float: right; height: 18px; width: 36px; cursor: pointer; }
+.portal_operation_edit a:hover { background-image: url(../images/portal/edit_2.gif); }
+.portal_tishi { background-image: url(../images/portal/p_27.gif); background-repeat: no-repeat; height: 20px; line-height: 20px; margin-left: 10px; padding-left: 10px; }
+table td.portal_t13 { background-color: #DFE9F2; font-weight: bold; height: 24px; line-height: 24px; text-align: center; color: #15428b; }
+table td.portal_hui { background-color: #EFEFEF; font-weight: normal; height: 24px; line-height: 24px; text-align: left; text-indent: 10px; }
+table td.portal_bai { font-weight: normal; height: 24px; line-height: 24px; text-align: left; text-indent: 10px; }
+.portal_tanchu { background-image: url(../images/self_error.jpg); background-repeat: repeat-x; height: 100px; width: 300px; margin-top: 20px; margin-left: 40px; position: absolute; background-position: center 0px; border: 1px solid #F90; }
+table td.portal_t8 { color: #15428b; font-weight: bold; height: 24px; line-height: 24px; text-align: right; }
+table td.portal_on { color: #15428b; font-weight: bold; height: 24px; line-height: 24px; text-align: left; text-indent: 10px; background-color: #CFE7FA; }
+.fs { background-color: #FFC; height: 200px; width: 60%; border: 1px solid #F9C251; margin-top: 20px; margin-right: auto; margin-bottom: 0px; margin-left: auto; color: #666; padding-top: 8px; padding-right: 14px; padding-bottom: 8px; padding-left: 14px; }
+.button_gray_fixed { cursor: pointer; height: 20px; width: 93px; border: none; color: #666; font-weight: bold; background-image: url(../images/gray.gif); background-color: #FFF; }
+.button_blue_fixed { cursor: pointer; height: 20px; width: 93px; border: none; color: #15428B; font-weight: bold; background-image: url(../images/blue.gif); background-color: #FFF; }
+table td.portal_on2 { color: #15428b; font-weight: bold; height: 24px; line-height: 24px; background-color: #CFE7FA; }

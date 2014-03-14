@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+ <!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">  
+ <taglib>  
+     <tlib-version>2.2.3</tlib-version>  
+     <jsp-version>1.2</jsp-version>  
+     <short-name>uums</short-name>  
+     <uri>/page</uri>  
+     <display-name>My Page Tag</display-name>     
+         <tag>  
+             <name>page</name>  
+             <tag-class>com.tekview.apex.uums.taglib.PageTag</tag-class>
+             <body-content>empty</body-content>
+              <attribute>
+                 <name>url</name>  
+                 <required>false</required> 
+                 <rtexprvalue>true</rtexprvalue> 
+             </attribute>              
+             <attribute>
+                 <name>currentPage</name>  
+                 <required>true</required> 
+                 <rtexprvalue>true</rtexprvalue> 
+             </attribute>  
+             <attribute>  
+                 <name>pageSize</name>  
+                 <required>true</required>  
+                 <rtexprvalue>true</rtexprvalue>  
+             </attribute>    
+              <attribute>  
+                 <name>records</name>  
+                 <required>true</required>  
+                 <rtexprvalue>true</rtexprvalue>  
+             </attribute>          
+         </tag>
+         <!--
+           字符串处理标签
+         --><tag>  
+             <name>label</name>  
+             <tag-class>com.tekview.apex.uums.taglib.LabelTag</tag-class>
+             <body-content>empty</body-content>
+              <attribute>
+                 <name>propertyValue</name>  
+                 <required>true</required> 
+                 <rtexprvalue>true</rtexprvalue> 
+             </attribute>        
+         </tag>  
+</taglib> 

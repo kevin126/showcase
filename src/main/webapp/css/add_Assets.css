@@ -1,0 +1,14 @@
+@charset('utf-8');
+body{background:#F5F9FC}
+.gd_xq{background:#fff;font:100 12px/20px normal}
+.gd_xq td{ height:26px;*height:20px; padding:6px}
+.gongdan_xq{font:100 12px/20px normal}
+.gongdan_xq td{ height:20px;*height:16px; padding:4px}
+.xq_td_left{ border-left:1px #fff solid}
+.xq_td_top{ border-top:1px #fff solid}
+.xq_td_bott{ border-bottom:1px #fff solid}
+.xq_td_bg{ background:url(../images/new_top/bgc4.jpg) repeat-x top}
+.xq_td_bg_tit{ background:#EAEFF2}
+.xq_td_bg_inp{ background:#F3F6F9}
+
+.pop_ceng{ width:auto; text-align:center; clear:both; padding-top:10px}

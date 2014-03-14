@@ -1,0 +1,52 @@
+// 流程名称常量
+var WorkflowNameConstant = {
+	ALL_NAME : '全部',
+	TASK_INCIDENT_NAME : '事件工单'
+};
+
+// 事件管理常量
+var WorkflowIncidentConstant = {
+	INCIDENT_START_NODE : '开始',
+	INCIDENT_FILL_NODE : '填写工单',
+	INCIDENT_WAIT_NODE : '待办单',
+	INCIDENT_ONE_TAKE_TRANSITION : '一线抢单',
+	INCIDENT_ONE_DISPOSE_NODE : '一线处理中',
+	INCIDENT_TWO_SUBMIT_TRANSITION : '提交二线',
+	INCIDENT_ONE_CLOSE_TRANSITION : '一线关闭',
+	INCIDENT_ONE_TRANSMIT_TRANSITION : '一线转交',
+	INCIDENT_TWO_DISPOSE_NODE : '二线处理中',
+	INCIDENT_TWO_BACK_TRANSITION : '二线驳回',
+	INCIDENT_TWO_CLOSE_TRANSITION : '二线关闭',
+	INCIDENT_TWO_TRANSMIT_TRANSITION : '二线转交',
+	INCIDENT_DETECT_NODE : '已解决',
+	INCIDENT_BACK_TRANSITION : '回退工单',
+	INCIDENT_CLOSE_TRANSITION : '关闭工单',
+	INCIDENT_AUTO_BACK_NODE : '自动回退',
+	INCIDENT_AUTO_BACK_ONE_TRANSITION : '自动回退一线',
+	INCIDENT_AUTO_BACK_TWO_TRANSITION : '自动回退二线',
+	INCIDENT_END_NODE : '已关闭'
+};
+
+// 最近工单常量
+var LastTaskConstant = {
+	LAST_MODE_RESOLVE : 'RESOLVE',
+	LAST_MODE_CREATE : 'CREATE',
+	LAST_MODE_MODIFY : 'MODIFY'
+};
+
+// 工单统计项
+var StatisticTaskItem = {
+	STAT_USER : 'handleUser',
+	STAT_PRIOR : 'prior',
+	STAT_SEVERITY : 'severity',
+	STAT_STATE : 'procNode'
+};
+
+// 事件管理用户评价等级
+var UserFeedbackLevel = {
+	USER_FEEDBACK_VERY_GOOD : 1,
+	USER_FEEDBACK_GOOD : 2,
+	USER_FEEDBACK_NORMAL : 3,
+	USER_FEEDBACK_BAD : 4,
+	USER_FEEDBACK_VERY_BAD : 5
+};

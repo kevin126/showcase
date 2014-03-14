@@ -1,0 +1,62 @@
+* { margin:0; padding:0; }
+body.ys4 { background-image: url(../images/wrapper_ys4_bg.jpg); background-repeat: repeat-x; background-color: #FFF; font-size: 12px; color: #666; font-family: Arial, Helvetica, sans-serif; }
+.header { background-image: url(../images/header.jpg); height: 105px; width: 686px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; }
+ul, li { list-style-type:none; }
+
+
+img { border:0; }
+.wrapper_ys4 { width: 686px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow: hidden; }
+.main { background-color: #FFF; border: 1px solid #024a8c; }
+.a1 { margin-top: 20px; }
+
+/*.bitian_title { background-color: #eaf0f3; height: 28px; width: 600px; font-size: 14px; line-height: 28px; color: #0B57A2; font-weight: bold; padding-left: 20px; border-top-width: 1px; border-top-style: solid; border-top-color: #0573ac; }*/
+
+
+
+.input_style1 { height: 20px; width: 200px; border: 1px solid #7F9DB9; }
+.button1 { height: 50px; width: 300px; margin-top: 20px; margin-right: auto; margin-bottom: 20px; margin-left: auto; clear: both; }
+p { line-height: 18px; margin-top: 16px; }
+
+.zhiban_block { background-color: #CCC; margin-top: 20px; margin-right: 20px; margin-bottom: 10px; margin-left: 20px; }
+.block2 { width: 100%; font-size: 12px; text-align: center; line-height: 24px; }
+table td.t3 { color: #666; background-color: #f5f5f5; font-weight: bold; height: 24px; line-height: 24px; text-align: left; }
+table td.t4 { color: #15428b; background-color: #eaf0f3; font-weight: bold; height: 24px; line-height: 24px; text-align: center; font-size: 14px; }
+.zhiban_block td { background-color: #FFF; }
+.a1 table { text-align: center; }
+*+html .select_style, .input_style, .textarea_style { border: 1px solid #7F9DB9 }
+.textarea_style { margin-top: 5px; margin-left: 5px; border: 1px solid #7F9DB9; margin-bottom: 5px; overflow: hidden; overflow-y : scroll; }
+.select_style { width:200px; margin-top: 1px; margin-left: 5px; border: 1px solid #7F9DB9; margin-bottom: 1px; height:18px; }
+.input_style { width:200px; margin-top: 1px; margin-left: 5px; border: 1px solid #7F9DB9; margin-bottom: 1px; height:18px; }
+.fs { background-color: #FFC; width: 80%; border: 1px solid #F9C251; margin-top: 20px; margin-right: auto; margin-bottom: 20px; margin-left: auto; padding: 8px; color: #666; }
+.line { line-height: 32px; color: #000; font-weight: bold; font-size: 14px; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #999; }
+.gray_box { border: 1px solid #d3ebf9; line-height: 18px; padding-left: 5px; background-color: #f2f8fc; width: 150px; margin-left: 5px; }
+.input_style2 { border: 1px solid #7F9DB9; background-color: #FFF; padding: 5px; margin: 5px; }
+.b_title { line-height: 24px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #CCC; font-weight: bold; padding-left: 30px; margin-top: 10px; font-size: 14px; }
+.b_title { background-color: #eaf0f3; height: 33px; width: 800px; font-size: 14px; line-height: 33px; color: #666; font-weight: bold; padding-left: 20px; background-image: url(../images/bitian.jpg); background-repeat: repeat-x; border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: #d8d8d8; border-right-color: #d8d8d8; border-left-color: #d8d8d8; }
+.f_red { font-size: 14px; color: #F00; line-height: 12px; }
+.foot { background-image: url(../images/foot.gif); height: 39px; width: 100%; margin-top: 20px; background-repeat: repeat-x; overflow: hidden; }
+.foot_table { text-align: center; }
+.banben { background-image: url(../images/liebiao.jpg); height: 121px; width: 373px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; }
+.biaoge { height: auto; width: 628px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; }
+.button2 { height: 40px; width: 260px; margin-top: 10px; margin-bottom: 0px; float: right; margin-right: 50px; }
+.mokuai { width: 314px; margin-top: 80px; position: absolute; margin-left: 30px; height: 345px; }
+.mokuai li { margin-bottom: 14px; height: 21px; font-size: 14px; font-weight: bold; color: #000; }
+.keyong { width: 50px; margin-top: 80px; position: absolute; margin-left: 430px; height: 348px; }
+.keyong li { margin-bottom: 14px; height: 21px; width: 22px; }
+.kesheng { width: 50px; margin-top: 80px; position: absolute; margin-left: 550px; height: 348px; }
+.kesheng li { margin-bottom: 14px; height: 21px; width: 22px; }
+.f_16 { font-size: 16px; font-weight: bold; color: #000; }
+.mima { background-image: url(../images/mima.jpg); background-repeat: no-repeat; }
+.guanli { background-image: url(../images/guanli.jpg); background-repeat: no-repeat;  }
+.lianxi { background-image: url(../images/lianxi.jpg); background-repeat: no-repeat;  }
+.dizhi { background-image: url(../images/dizhi.jpg); background-repeat: no-repeat;  }
+.daoru { background-image: url(../images/daoru.jpg); background-repeat: no-repeat; }
+.f_14 { font-size: 14px; font-weight: bold; color: #000; }
+table td.t1 { text-align: right; font-size: 14px; font-weight: bold; position: static; margin: 0px; }
+
+.banben_gnlb_tltle{ height:70px; width:628px; background:url(../images/biaoge_r1_c1.jpg) no-repeat; overflow:hidden}
+.banben_gnlb_nr{ height:auto; width:628px; background:url(../images/biaoge_r2_c1.jpg) no-repeat; overflow:hidden}
+.banben_gnlb_foot{ height:16px; width:628px; background:url(../images/biaoge_r3_c1.jpg) no-repeat; overflow:hidden}
+.xuke_tit_c{ height:35px; width:360px; float:left; font-weight:100; line-height:35px; font-size:14px; color:#333; padding:0 0 0 25px}
+.xuke_mok_c{ height:35px; width:80px; float:left;padding:0 0 0 38px; line-height:35px;}
+.xuke_mosj_c{ height:35px; width:84px; float:left;padding:0 0 0 38px; line-height:35px;}

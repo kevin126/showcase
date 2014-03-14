@@ -1,0 +1,83 @@
+.workarea_left { float: left; width: 70%; margin-left: 10px; overflow: hidden; }
+.workarea_right { float: right; width: 28%; margin-right: 5px; overflow: hidden; }
+
+.workarea_block{ width:48%; float: left; margin-top: 5px; margin-right: 15px; margin-bottom: 5px;}
+
+.workarea_title { background-image: url(../images/portal/potal_bg.gif); width: 100%; background-repeat: repeat-x; height: 25px; border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: #a2aeba; border-right-color: #a2aeba; border-left-color: #a2aeba; }
+.workarea_name { border-left-width: 1px; border-left-style: solid; border-left-color: #FFF; line-height: 25px; font-size: 13px; font-weight: bold; height: 25px; overflow: hidden; padding-left: 55px; margin-top: 1px; background-image: url(../images/workarea/workarea_icon.gif); background-repeat: no-repeat; }
+.workarea_operation { float: right; margin-right: 5px; width: 60px; margin-top: 5px; }
+.workarea_content {width: 100%;border: 1px solid #A2AEBA;height: 220px;overflow-x: hidden;overflow-y: auto; }
+.workarea_operation_close a { background-image: url(../images/portal/close.gif); background-repeat: no-repeat; float: right; height: 18px; width: 43px; cursor: pointer; }
+.workarea_operation_close a:hover { background-image: url(../images/portal/close_2.gif); }
+.workarea_operation_max a { background-image: url(../images/portal/max.gif); background-repeat: no-repeat; float: right; height: 18px; width: 24px; cursor: pointer; }
+.workarea_operation_max a:hover { background-image: url(../images/portal/max_2.gif) }
+.workarea_operation_min a { background-image: url(../images/portal/min.gif); background-repeat: no-repeat; float: right; height: 18px; width: 25px; cursor: pointer; }
+.workarea_operation_min a:hover { background-image: url(../images/portal/min_2.gif); }
+.workarea_operation_refresh a { background-image: url(../images/portal/refresh.gif); background-repeat: no-repeat; float: right; height: 18px; width: 25px; cursor: pointer; }
+.workarea_operation_refresh a:hover { background-image: url(../images/portal/refresh_2.gif); }
+.workarea_operation_edit a { background-image: url(../images/portal/edit.gif); background-repeat: no-repeat; float: right; height: 18px; width: 36px; cursor: pointer; }
+.workarea_operation_edit a:hover { background-image: url(../images/portal/edit_2.gif); }
+.workarea_tishi { background-image: url(../images/portal/p_27.gif); background-repeat: no-repeat; height: 20px; line-height: 20px; margin-left: 10px; padding-left: 10px; }
+table td.workarea_t13 { background-color: #DFE9F2; font-weight: bold; height: 24px; line-height: 24px; text-align: center; color: #15428b; }
+table td.workarea_hui { background-color: #EFEFEF; font-weight: normal; height: 24px; line-height: 24px; text-align: left; text-indent: 10px; }
+table td.workarea_bai { font-weight: normal; height: 24px; line-height: 24px; text-align: left; text-indent: 10px; }
+.workarea_tanchu { background-image: url(../images/self_error.jpg); background-repeat: repeat-x; height: 100px; width: 300px; margin-top: 20px; margin-left: 40px; position: absolute; background-position: center 0px; border: 1px solid #F90; }
+table td.workarea_t8 { color: #15428b; font-weight: bold; height: 24px; line-height: 24px; text-align: right; }
+table td.workarea_on { color: #15428b; font-weight: bold; height: 24px; line-height: 24px; text-align: left; text-indent: 10px; background-color: #CFE7FA; }
+
+table td.workarea_on2 { color: #15428b; font-weight: bold; height: 24px; line-height: 24px; background-color: #CFE7FA; }
+.workarea_font12black { font-size: 12px; color: #7F7F7F; }
+table td.tworkarea { background-color: #DFE9F2; font-weight: bold; height: 20px; line-height: 20px; background-image: url(../images/workarea_tbar_bg.gif); background-repeat: repeat-x; }
+
+table td.workarea_grey{ background-color: #EEE; text-align: left; }
+
+.workarea_table{ text-indent: 3px; width: 99%; line-height: 20px; }
+.workarea_table td { background-color: #FFF; }
+.weijiejue{ background-image: url(../images/workarea/weijiejue.gif); background-repeat: no-repeat; }.myinc { background-image: url(../images/workarea/shijian.gif); background-repeat: no-repeat; }
+.wenti { background-image: url(../images/workarea/wenti.gif); background-repeat: no-repeat; }
+.biangen { background-image: url(../images/workarea/biangen.gif); background-repeat: no-repeat; }
+.shishibiangen { background-image: url(../images/workarea/shishi.gif); background-repeat: no-repeat; float: left; overflow: hidden; height: 24px; }
+.workarea_h20 { clear: both; height: 2px; }
+
+.workarea_block2 { line-height: 20px; }
+.workarea_title2 { background-color: #eaf0f3; height: 25px; width: auto; font-size: 14px; line-height: 25px; color: #666; font-weight: bold; padding-left: 20px; background-image: url(../images/bitian.jpg); background-repeat: repeat-x; overflow: hidden; border: 1px solid #d8d8d8; }
+.indexPopUpBoxStyle { margin: 0px; }
+.dateBox { }
+.dateBoxWeek { background-image: url(../images/workarea_tbar_bg.gif); height: 20px; overflow: hidden; background-color: transparent; line-height: 20px; }
+.dateBoxWeek table td.w1 { text-align: center; width: 14%; color: #666; }
+.dateBox table { }
+
+
+.everyday { background-image: url(../images/workarea/everyday_bg.gif); background-repeat: repeat-x; border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; border-right-color: #cccccc; border-bottom-color: #cccccc; }
+.everyday h1 { font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif, "宋体"; margin-left: 2px; width: 16px; }
+.everyday_history { border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; border-right-color: #cccccc; border-bottom-color: #cccccc; background-color: #D8D8D8; }
+.everyday_history h1 { font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif, "宋体"; margin-left: 2px; color: #8C8C8C; width: 16px; }
+.everyday_today { border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; border-right-color: #cccccc; border-bottom-color: #cccccc; background-color: #fff09e; }
+.everyday_today h1 { font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif, "宋体"; margin-left: 2px; color: #F33; width: 16px; }
+.workPlan { line-height: 14px; background-color: #FCC; float: right; margin-top: 1px; margin-right: 1px; height: 14px; overflow: hidden; width: 30px; text-align: center; }
+
+.logPic { height: 14px; width: 14px; margin-top: 2px; float: right; overflow: hidden; }
+.taskPic{ float: right; height: 14px; width: 14px; margin-top: 2px; overflow: hidden; }
+.borderRightNone { border-right-style: none; }
+.borderBottomRightNone { border-Bottom-style: none; border-Right-style: none;}
+.borderBottomNone { border-Bottom-style: none; }
+.taskListStyle { height: auto; margin-top: -35px; margin-left: 140px; }
+.tasklistTbar { line-height: 30px; height: 30px; font-weight: bold; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #999; text-indent: 3px; overflow: hidden; background-image: url(../images/workarea/quickCreateTitle_bg.gif); background-repeat: repeat-x; }
+.logTab li { background-image: url(../images/workarea/logtab.gif); background-repeat: no-repeat; float: left; height: 23px; width: 86px; margin-left: 5px; line-height: 23px; text-align: center; font-weight: normal; color: #666; overflow: hidden; }
+.logTab { height: 24px; overflow: hidden; float: left; width: 230px; margin-top: 8px; }
+.logTab li.show { background-image: url(../images/workarea/logtabShow.gif); font-weight: bold; color: #000; }
+.checkStyle{ width:500px; height: auto; margin-left: 140px; margin-top: -35px; }
+.quickCreateBox td { }
+.logTime { float: right; height: 20px; width: 150px; overflow: hidden; color: #999; }
+.workareaChoiceDate { float: right; width: 150px; margin-top: 3px; margin-right: 5px; }
+.logTitle { border-bottom-width: 1px; border-bottom-style: dashed; border-bottom-color: #999; }
+.tasklistTbar h1 { float: left; font-size: 12px; font-weight: bold; }
+.logTab li a { color: #000; }
+.dateBox { height:200px; overflow: hidden; }
+.dateBox table td { width: 14%; height: 33px; overflow: hidden; }
+.dateAndMonth { width: 80px; float: left; font-weight: bold; margin-left: 20px; margin-top: 2px; }
+.dateUpAndDownBox { height: 16px; width: 15px; margin-top: 5px; overflow: hidden; }
+ a div.dateUp { background-image: url(../images/workarea/dateUp.gif); background-repeat: no-repeat; height: 8px; width: 15px; }
+a:hover div.dateUp  { background-image: url(../images/workarea/dateUpShow.gif); height: 8px; width: 15px; overflow: hidden; line-height: 0px; }
+ a div.dateDown { background-image: url(../images/workarea/dateDown.gif); background-repeat: no-repeat; height: 8px; width: 15px; }
+a:hover div.dateDown  { background-image: url(../images/workarea/dateDownShow.gif); height: 8px; width: 15px; overflow: hidden; line-height: 0px; }

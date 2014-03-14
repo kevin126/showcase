@@ -1,0 +1,11 @@
+@charset('utf-8');
+body{ padding-left:226px;padding-top:2px;_padding-top:0;width:248px; }
+.jinqi_waik{ width:240px; height:182px; background:#fff; overflow:hidden}
+.jinqi_cout{background:url(../images/works/oss2_r7_c8.jpg) repeat-x; height:180px}
+.guanbi{ text-align:left; height:24px; clear:both; width:auto}
+.guanbi h1{float:left;font:700 12px/24px normal; text-indent:4px}
+.guanbi h2{ float:right; padding:3px 3px;*padding:0 3px}
+.jinqi_liebiao,
+.jinqi_liebiao ul{ width:auto; overflow:hidden; height:auto; padding:2px 0 0}
+.liebiao_li{ float:left; width:106px; height:26px;margin:0 0 0 10px;_margin:0 0 0 6px; border-bottom:1px dotted #7F96C0; line-height:26PX; text-indent:2px}
+.liebiao_lion{ float:left; width:106px; height:26px;margin:0 0 0 10px;_margin:0 0 0 6px; border-bottom:1px dotted #f00; line-height:26PX; color:#F00; text-indent:3px; background:#FFC}

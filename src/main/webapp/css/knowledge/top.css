@@ -1,0 +1,25 @@
+.header { height: 50px; width: 1040px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; overflow:hidden;}
+.logo, .logo a, logo a:hover { background-image:url(../../images/knowledge/logo.gif); height: 46px; width: 160px; white-space: pre; text-decoration:none; background-repeat: no-repeat; float:left; overflow:hidden; z-index:auto; position:relative }
+.search { height: 30px; width: 543px; margin-top: 10px; margin-left: 0px;float:left; overflow:hidden  }
+.searchBox { background-image: url(../../images/knowledge/search.gif); background-repeat: no-repeat; height: 30px; width:250px; float: left; }
+.login {float:right; height: 25px; width: auto; text-align:right }
+.searchInputStyle { margin-top: 6px; margin-left: 10px; width: 180px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: transparent; color: #666; float: left; }
+.login_n29{ height:25px; overflow:hidden; width:auto; float:right}
+.login_n29 h1,.login_n29 h2,.login_n29 h3,.login_n29 a{ margin:0;padding:0; font:100 12px/24px arial; color:#333; text-decoration:none}
+.login_n29 h1{ width:5px; height:25px; overflow:hidden; float:left; background:url(../../images/knowledge/newindex/5_r1_c2.jpg) no-repeat}
+.login_n29 h3{width:5px; height:25px; overflow:hidden;float:left; background:url(../../images/knowledge/newindex/5r1_c5.jpg) no-repeat}
+.login_n29 h2{width:auto; height:25px; overflow:hidden;float:left; background:url(../../images/knowledge/newindex/5_r1_c3.jpg) repeat-x; padding:0 6px 0 6px;}
+.login_n29 h2 span{ background:url(../../images/knowledge/newindex/5_r2_c4.jpg) no-repeat; padding:0 0 0 20px}
+.login_n29 h2 em{ font:100 12px/24px arial; background:url(../../images/knowledge/newindex/5_r2_c6.jpg) no-repeat 0 -4px; margin:0 0 0 8px; padding:0 0 0 10px}
+.login_n29 h2 i{ font:100 12px/24px arial; background:url(../../images/knowledge/newindex/6_r2_c6.jpg) no-repeat 0 -2px; margin:0 0 0 10px; padding:0 0 0 20px}
+
+
+
+
+
+
+
+
+
+
+

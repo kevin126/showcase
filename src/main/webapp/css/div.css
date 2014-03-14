@@ -1,0 +1,144 @@
+* {
+	color:#FFF;
+	margin:0;
+	padding:0;
+	
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+}
+body { background-repeat:repeat-x; background-image: url(../images/login_bg.jpg); margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; 
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border:none
+}
+ul, li {
+	padding:0;
+	list-style:none
+}
+.tpng {
+	margin:0 auto;
+	padding:0;
+	float:left;
+}
+.wrapper {
+	height: 604px;
+	width: 991px;
+	margin-top: 45px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(../images/6.jpg);
+}
+.wrapper_ca {
+	height: 604px;
+	width: 991px;
+	margin-top: 45px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(../images/8.jpg);
+}
+.wrapper_netmanager {
+	height: 604px;
+	width: 991px;
+	margin-top: 45px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(../images/7.jpg);
+}
+.input1 {
+	height: 24px;
+	width: 162px;
+	margin-top: 264px;
+	margin-left: 292px;
+	position: absolute;
+	z-index: 101;
+}
+*html .input1 {
+	margin-left: 146px;
+}
+*+html .input1 {
+	margin-top: 264px;
+	margin-left: 148px;
+}
+.input2 {
+	height: 24px;
+	width: 162px;
+	margin-top: 306px;
+	margin-left: 292px;
+	position: absolute;
+	z-index: 102;
+}
+*html .input2 {
+	margin-left: 146px;
+}
+*+html .input2 {
+	margin-top: 304px;
+	margin-left: 148px;
+	
+}
+.input_style { background-color:#2e82a7; height:20px; line-height: 16px; width: 150px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
+.w100 {
+	width: 100%;
+}
+.wangji {
+	height: 20px;
+	width: 200px;
+	margin-top: 334px;
+	margin-left: 284px;
+	position: absolute;
+	z-index: 100;
+}
+.register {
+	height: 20px;
+	width: 144px;
+	margin-top: 366px;
+	margin-left: 290px;
+	position: absolute;
+}
+.button_signin {
+	height: 60px;
+	width: 180px;
+	position: absolute;
+	margin-top: 394px;
+	margin-left: 255px;
+}
+*html .button_signin {
+	margin-top: 197px;
+	margin-left: 128px;
+}
+.button_signin a {
+	height: 60px;
+	width: 180px;
+	position: absolute;
+	background-image:url(../images/5.jpg);
+}
+*html .button_signin a {
+	margin-top: 197px;
+	margin-left: 128px;
+}
+.button_signin a:hover {
+	height: 60px;
+	width: 180px;
+	position: absolute;
+	background-image:url(../images/5_hover.jpg);
+}
+*html .button_signin a:hover {
+	margin-top: 197px;
+	margin-left: 128px;
+}
+.fail {
+	height: 18px;
+	width: 200px;
+	margin-top: 240px;
+	margin-left: 288px;
+	position: absolute;
+	z-index: 108;
+}

@@ -1,0 +1,60 @@
+@charset('utf-8');
+body{background:#EFF3F5}
+.pop_tiaojian{ padding:18px; height:auto; overflow:hidden}
+.pop_tiaojian ol{ width:auto; height:auto; overflow:hidden; clear:both;}
+.pop_tiaojian ol li{ float:left; line-height:32px}
+.pop_biaot{ text-align:right; width:84px; font-size:12px;}
+.tj_quick{ width:20px; overflow:hidden;}
+.pop_ss_bn{width:auto; height:auto; overflow:hidden; text-align:center; padding:8px 0 0}
+.pop_ceng{ width:auto; text-align:center; clear:both; padding-top:10px}
+.liucheng_title{ height:30px; background:url(../images/new_top/f_r2_c2.jpg) repeat-x}
+.liucheng_title h1{width:24px; float:left;height:30px; overflow:hidden}
+.liucheng_title h2{width:12px; float:left;height:30px; overflow:hidden}
+.liucheng_title h3{font:100 12px/30px normal; float:left;}
+.liucheng_title_tz{ float:left; height:23px; margin-top:-2px}
+.liucheng_counter{ height:auto; overflow:hidden;}
+.tit_right{ float:right; height:28px;_height:18px; padding:0px 6px 0;_margin-top:2px; line-height:28px}
+.tit_right_gai{line-height:28px;}
+.cmdb_cha{ padding-top:2px;width:auto; float:left; height:auto; overflow:hidden;_height:24px;_padding-top:2px;}
+
+
+#tab1{background:#fff;height:auto;width:auto;}
+#tab9 ol{display:none;font:100 12px/27px Arial}
+#tab9 ol li{padding:0 0 0 0;}
+#tab9 ol.block{display:block;}
+#menu9 {height:38px; width:auto; text-align:center;font:100 12px/34px Arial; background:url(../images/new_top/tt-1_r2_c2.jpg) repeat-x bottom}
+#menu9 h2{float:left;width:14px; height:37px;}
+#menu9 h3{float:left;cursor:pointer;font:100 12px/37px Arial; background:url(../images/new_top/561_r2_c3.jpg) repeat-x; overflow:hidden; height:37px; width:auto;*width:158px;}
+#menu9 h3 a{width:auto;*width:108px; overflow:hidden; height:37px; font:100 13px/37px Arial;text-decoration:none; color:#006699;float:left;overflow:hidden;padding-right:0px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis; background:url(../images/new_top/tr_r3_c6.jpg) no-repeat 5px 6px; padding:0 0 0 40px; text-align:left}
+#menu9 h3:after{content:"..."!important;padding-right:6px}
+#menu9 h3.hover{height:38px;font:100 14px/37px arial;float:left;background:url(../images/new_top/f-1_r3_c2.jpg) repeat-x;}
+#menu9 h3.hover a{float:left;width:auto;*width:108px;font:700 13px/38px Arial;color:#113C55;text-decoration:none; background:url(../images/new_top/rt-1_r3_c4.jpg) no-repeat 5px 6px; padding:0 6px 0 40px; text-align:left}
+#menu9 h3.hover:after{content:""!important;}
+
+#menu9 h3.hover div.tab_q{float:left;width:2px; height:38px; background:url(../images/new_top/41_r2_c22.jpg) no-repeat;}
+#menu9 h3.hover div.tab_h{ float:right;width:2px; height:38px; background:url(../images/new_top/t1_r2_c32.jpg) no-repeat;}
+.tab_q{ float:left;width:2px; height:37px; background:url(../images/new_top/41_r2_c2.jpg) no-repeat}
+.tab_h{ float:right;width:2px; height:37px; background:url(../images/new_top/t1_r2_c3.jpg) no-repeat}
+.tiaojian_c{ background:#fff url(../images/new_top/g1_r2_c2.jpg) repeat-x bottom;width:auto; height:auto; overflow:hidden; padding:20px}
+.add_bn_ceng{width:auto; height:auto; overflow:hidden;}
+.tiaojian_cs{height:90px;border-bottom:1px dotted #CCC;width:auto; overflow:hidden; font-size:14px; margin:0 0 18px 0; padding-bottom:12px}
+.tiaojian_ziduan_c{ width:18%; height:90px}
+.tiaojiancaozuo_c{ width:18%; height:90px}
+.tiaojianzhi_c{ width:20%; height:90px}
+.tiaojianxz_c{ width:20%; height:90px}
+.tiaojiandel_c{ width:98px; height:90px}
+.tiao_t_c{width:auto; height:auto; overflow:hidden; font-size:12px; text-indent:8px}
+.zdy_shuri{ height:46px; border:1px solid #ACBACA}
+.zdy_count{ background:#F3F5F8; height:35px; padding:9px 0 0 8px; font-size:12px}
+.wid90b{ width:90%}
+.bor_noleft{border-left:none}
+.tiaojian_z{ height:90px; line-height:108px}
+.padd_right8px{ padding-right:8px}
+
+.tianjian_moren{ background:#fff url(../images/new_top/g1_r2_c2.jpg) repeat-x bottom; padding:20px;width:auto; height:auto; overflow:hidden;}
+.mo_ren{width:auto; height:18px; overflow:hidden; background: url(../images/new_top/d_r2_c4.jpg) no-repeat; padding-left:22px; line-height:18px; font:700 13px/18px normal}
+.add_tj_bn{width:78px; height:29px; overflow:hidden; background:url(../images/new_top/561_r2_c3_r8_c4.jpg) no-repeat; text-align:left; padding:0 0 3px 23px;*padding:1px 0 0 26px; font-size:12px}
+.del_tj_bn{width:78px; height:29px; overflow:hidden; background:url(../images/new_top/561_r2_c3_r8_c10.jpg) no-repeat; text-align:left; padding:0 0 3px 23px;*padding:1px 0 0 26px; font-size:12px}
+.tianjian_r{ height:auto; font:100 12px/36px normal; padding:8px 24px; overflow:hidden}
+.left_margin8px{margin-left:8px;}
+.left_padd_8px{padding-left:8px}

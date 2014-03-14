@@ -1,0 +1,74 @@
+.onShow
+{   
+	filter:alpha(opacity=0); opacity:0;
+	border:none;
+    background:none;
+    padding-left:20px;
+	font-size: 12px;
+	line-height:20px; 
+	vertical-align:middle;
+	color:#333;
+	margin:4px 0 0 4px;
+    width:auto;
+    padding:1px 1px 1px 20px;
+    text-align:left;
+    height:0px;
+    overflow:hidden;
+    display:none;
+}
+.onFocus
+{   
+	filter:alpha(opacity=0); opacity:0;
+	border:none;
+    background:none;
+    padding-left:20px;
+	font-size: 12px;
+	line-height:20px; 
+	vertical-align:middle;
+	color:#333;
+	margin:4px 0 0 4px;
+    width:auto;
+    padding:1px 1px 1px 20px;
+    text-align:left;
+    height:0px;
+    overflow:hidden;
+    display:none;
+}
+.onError
+{   border:1px solid #FFDEAF;
+    height:20px;
+    background:#FFFFF2 url(../images/fgr13_c9.jpg) no-repeat 2px 4px;
+    padding-left:20px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	color:#FF6600;
+	margin:4px 0 0 4px;
+    width:auto;
+    padding:0px 1px 0px 20px;
+    text-align:left;
+}
+.onCorrect
+{
+    /*filter:alpha(opacity=0); opacity:0;*/
+    background:#E9FFEB url(../images/onCorrect.gif) no-repeat;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	height:0px;
+    overflow:hidden;
+    display:none
+}
+.onLoad
+{
+	/*filter:alpha(opacity=0); opacity:0;*/
+    background:#E9FFEB url(../images/onLoad.gif) no-repeat 3px 3px;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	height:0px;
+    overflow:hidden;
+    display:none
+} 

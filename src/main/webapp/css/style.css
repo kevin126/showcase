@@ -1,0 +1,29 @@
+﻿body,td,th {
+	font-size: 12px;
+	/*color: #000000;*/
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.rollover {
+	display: block;
+	width: 101px;
+	height: 27;
+	background: url(../images/Login_11.gif) no-repeat;
+	text-indent: -9999px
+}
+
+a {
+	outline: none;
+}
+
+a.rollover:link,a.rollover.visited,a.rollover.active {
+	background: url(../images/Login_11.gif) no-repeat;
+}
+
+a.rollover:hover {
+	background-position: -100px 0;
+}
+
+div#loginDiv {
+	margin:0 auto;
+}

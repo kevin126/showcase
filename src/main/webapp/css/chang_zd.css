@@ -1,0 +1,32 @@
+@charset('utf-8');
+body{background:#F5F9FC}
+.pop_tiaojian{ padding:12px; height:auto; overflow:hidden}
+.pop_tiaojian ol{ width:auto; height:auto; overflow:hidden; clear:both;}
+.pop_tiaojian ol li{ float:left; line-height:32px}
+.pop_biaot{ text-align:right; width:84px; font-size:12px;}
+.tj_quick{ width:20px; overflow:hidden;}
+.pop_ss_bn{width:auto; height:auto; overflow:hidden; text-align:center; padding:8px 0 0}
+.pop_ceng{ width:auto; text-align:center; clear:both; padding-top:10px}
+.liucheng_title{ height:30px; background:url(../images/new_top/f_r2_c2.jpg) repeat-x}
+.liucheng_title h1{width:24px; float:left;height:30px; overflow:hidden}
+.liucheng_title h2{width:12px; float:left;height:30px; overflow:hidden}
+.liucheng_title h3{font:100 12px/30px normal; float:left;}
+.liucheng_title_tz{ float:left; height:23px; margin-top:-2px}
+.liucheng_counter{ height:auto; overflow:hidden;}
+.tit_right{ float:right; height:28px;_height:18px; padding:0px 6px 0;_margin-top:2px; line-height:28px}
+.tit_right_gai{line-height:28px;}
+.cmdb_cha{ padding-top:2px;width:auto; float:left; height:auto; overflow:hidden;_height:24px;_padding-top:2px;}
+.liuch0tz{ float:left; height:23px; margin-top:4px;*margin-top:-2px}
+
+
+
+
+.jinqi_waik{ width:auto; height:auto; background:#fff; overflow:hidden}
+.jinqi_cout{background:url(../images/works/oss2_r7_c8.jpg) repeat-x; height:auto; overflow:hidden; padding-bottom:12px;_padding-bottom:38px}
+.guanbi{ text-align:left; height:24px; clear:both; width:auto}
+.guanbi h1{float:left;font:700 12px/24px normal; text-indent:4px}
+.guanbi h2{ float:right; padding:3px 3px;*padding:0 3px}
+.jinqi_liebiao,
+.jinqi_liebiao ul{ width:auto; overflow:hidden; height:auto; padding:2px 0 0}
+.liebiao_li{ float:left; width:106px; height:26px;margin:0 0 0 10px;_margin:0 0 0 6px; border-bottom:1px dotted #7F96C0; line-height:26PX; text-indent:2px; white-space:nowrap}
+.liebiao_lion{ float:left; width:106px; height:26px;margin:0 0 0 10px;_margin:0 0 0 6px; border-bottom:1px dotted #f00; line-height:26PX; color:#F00; text-indent:3px; background:#FFC}

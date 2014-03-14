@@ -1,0 +1,73 @@
+<!--
+	* Create Author   : Andy Cui
+	* Create Date     : Oct 22, 2009
+	* File Name       : apex-oss.tld
+	*
+	* Apex OssWorks是上海泰信科技有限公司自主研发的一款IT运维产品，公司拥有完全自主知识产权及专利，
+	* 本系统的源代码归公司所有，任何团体或个人不得以任何形式拷贝、反编译、传播，更不得作为商业用途，对
+	* 侵犯产品知识产权的任何行为，上海泰信科技有限公司将依法对其追究法律责任。
+	*
+	* Copyright 1999 - 2009 Tekview Technology Co.,Ltd. All right reserved.
+-->
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<tlib-version>1.3</tlib-version>
+	<short-name>oss</short-name>
+	<uri>http://www.apex-itsm.com/tags-apex-oss</uri>
+	<description>
+		<![CDATA[
+        	Apex-OssWorks产品标签库，用来根据权限项ID及流程当前的状态，判断是否需要显示标签体内容。
+        ]]>
+	</description>
+	<!-- 分页标签 -->
+	<tag>
+		<name>pager</name>
+		<tag-class>
+			com.tekview.apex.itsm.server.taglib.PagingTag
+		</tag-class>
+		<attribute>
+			<name>formId</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>查询form</description>
+		</attribute>
+		<attribute>
+			<name>pageSize</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>每页显示条数</description>
+		</attribute>
+		<attribute>
+			<name>action</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>action的url，比如：/itsm/listUser.do</description>
+		</attribute>
+		<attribute>
+			<name>qparams</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>通过get方式去查询的参数列表，通过分隔符间隔</description>
+		</attribute>
+		<attribute>
+			<name>qvalues</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>与参数对应的值列表，用分隔符间隔</description>
+		</attribute>
+		<attribute>
+			<name>separator</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>用户自定义的参数和值的分割符，如果不定义，则自动以,分隔</description>
+		</attribute>
+		<attribute>
+			<name>cssName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<description>分页条的样式</description>
+		</attribute>
+	</tag>
+</taglib>

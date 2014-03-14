@@ -1,0 +1,11 @@
+@charset('utf-8');
+body{background:#F5F9FC}
+.pop_tiaojian{ padding:12px; height:auto; overflow:hidden}
+.pop_tiaojian ul{ width:auto; height:auto; overflow:hidden; clear:both}
+.pop_tiaojian ul li{ float:left; line-height:32px}
+.pop_biaot{ text-align:right; width:84px; font-size:12px;}
+.tj_quick{ width:20px; overflow:hidden;}
+.pop_ss_bn{width:auto; height:auto; overflow:hidden; text-align:center; padding:8px 0 0}
+.pop_ceng{ width:auto; text-align:center; clear:both; padding-top:10px}
+.popwo_s_biaot{text-align:right; width:76px; font-size:12px}
+.popinp_wid100{width:100px}

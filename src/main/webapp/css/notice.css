@@ -1,0 +1,24 @@
+.notice_left { float: left; width: 70%; margin-left: 10px; }
+.notice_right { float: right; width: 28%; margin-right: 10px; }
+*html .notice_right { float: right; width: 27%; margin-right: 10px; }
+DIV.notice { TEXT-ALIGN: center; clear: both; margin: 3px; padding-top: 20px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; }
+DIV.notice A { BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ddd 1px solid; COLOR: #aaa; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #ddd 1px solid; TEXT-DECORATION: none }
+DIV.notice A:hover { BORDER-RIGHT: #a0a0a0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #a0a0a0 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #a0a0a0 1px solid; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #a0a0a0 1px solid; color: #FFF; background-color: #15428B; }
+DIV.notice A:active { BORDER-RIGHT: #a0a0a0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #a0a0a0 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #a0a0a0 1px solid; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #a0a0a0 1px solid; color: #FFF; background-color: #15428B; }
+DIV.notice SPAN.current { BORDER-RIGHT: #e0e0e0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #e0e0e0 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #e0e0e0 1px solid; COLOR: #FFF; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #e0e0e0 1px solid; BACKGROUND-COLOR: #15428B }
+DIV.notice SPAN.disabled { BORDER-RIGHT: #f3f3f3 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #f3f3f3 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #f3f3f3 1px solid; COLOR: #ccc; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #f3f3f3 1px solid }
+.notice_logo, .notice_logo a, notice_logo a:hover { background-image: url(../images/logo.jpg); height: 56px; width: 370px; position: absolute; z-index: 200; white-space: pre; text-decoration:none }
+.notice_wrapper { overflow: hidden; width: 100%; background-image: url(../images/ossworks_bg.jpg); background-repeat: no-repeat; height: 56px; }
+.notice_l { width: 700px; margin-top: 10px; margin-right: auto; margin-bottom: 10px; margin-left: auto; border: 1px solid #CCC; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; background-color: #FFF; }
+.notice_detail_bg { background-image: url(../images/bg1.jpg); background-repeat: repeat-x; padding-top: 10px; background-color: #FFF; margin-top: 0px; background-position: center -177px; }
+.notice_main_bg  { padding-left: 20px; background-image: url(../images/notice/notice_bg1.gif); background-repeat: repeat-x; padding-top: 5px; }
+.notice_list_title { font-size: 16px; font-weight: bold; color: #333; overflow: hidden; text-align: center; line-height: 24px; }
+.notice_list_article { line-height: 22px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; border-top-width: 1px; border-top-style: dotted; border-top-color: #CCC; padding-top: 10px; font-size: 13px; }
+.notice_list_left { width: 90%; margin-top: 10px; margin-right: auto; margin-bottom: 10px; margin-left: auto; border: 1px solid #CCC; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; background-color: #FFF; }
+.notice_list_ul { height: 20px; }
+.notice_list_ul li { float: left; }
+.n1 { width: 199px; overflow: hidden; height: 25px; line-height: 25px; }
+.n1 a { color: #333; font-weight: normal; }
+.n1 a:hover { text-decoration:underline; color:#F90; }
+.notice_selected { background-color: #CFE7FA; }
+.notice_nodata { background-image: url(../images/self_nodata3.gif); background-repeat: no-repeat; background-position: center top; height: 200px; width: 400px; margin-top: 50px; margin-right: auto; margin-left: auto; }.notice a.disable { color: #cccccc; border: 1px solid #cccccc; background-color: #E4E4E4; }

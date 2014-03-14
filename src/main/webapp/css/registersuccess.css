@@ -1,0 +1,26 @@
+body { font-size: 14px; margin: 0px; padding: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
+.head { background-image: url(../images/register/b.jpg); background-repeat: no-repeat; height: 58px; width: 760px; }
+.main { height: 300px; width: 758px; background-color: #E6E6E6; border: 1px solid #125075; }
+ul li { list-style-type: none; margin: 0px; padding: 0px; }
+.a1 li { margin: 5px; }
+.name { border: 1px dashed #666; background-color: #f6fcce; width: 70%; margin-top: 10px; margin-bottom: 10px; margin-left: auto; margin-right: auto; }
+
+a:hover { text-decoration:underline; color:#F90; }
+.a1 li.b1 { text-align: center; }
+img { border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
+.font_green { color: #090; }
+.register_list { background-color: #6CF; height: 20px; width: 60%; margin-right: auto; margin-left: auto; background-image: url(../images/register/rb.jpg); background-repeat: repeat-x; background-position: center top; border: 1px solid #667787; text-align: left; font-size: 12px; overflow: hidden; }
+.register_list li { float: left; line-height: 20px; }
+.register_list li.r1 { margin-left: 5px; width: 10%; }
+.register_list li.r2{ margin-left: 5px; width: 45%; }
+.register_list li.r3{ margin-left: 5px; width: 40%; }
+.register_list2 { height: 20px; width: 60%; margin-right: auto; margin-left: auto; background-repeat: repeat-x; text-align: left; font-size: 12px; margin-top: 0px; margin-bottom: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: #CCC; border-bottom-color: #CCC; border-left-color: #CCC; overflow: hidden; }
+.register_list2 li { float: left; line-height: 20px; }
+.register_list2 li.r1 { margin-left: 5px; width: 10%; }
+.register_list2 li.r2{ margin-left: 5px; width: 45%; }
+.register_list2 li.r3{ margin-left: 5px; width: 40%; }
+.font_red { color: #F00; }
+.register_table { width: 60%; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; font-size: 12px; text-indent: 3px; line-height: 18px; background-color: #A9B5BE; }
+.register_table td.register_bg { background-image: url(../images/register/rb.jpg); background-repeat: repeat-x; text-indent: 3px; line-height: 18px; font-size: 12px; font-weight: bold; background-color: #D7E0E9; }
+.register_table tr td { background-color: #FFF; }
+.mailDiv { width: 765px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; }

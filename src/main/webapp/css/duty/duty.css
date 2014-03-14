@@ -1,0 +1,110 @@
+﻿*{ margin:0 ; padding:0 ; border:0;}
+body {
+	background-image: url(../../images/duty/bg1.jpg);
+	background-repeat: repeat-x;
+	background-color: #eff8ff;
+	font-size: 12px;
+	color: #666;
+}
+.header {
+	background-image: url(../../images/duty/header.jpg);
+	height: 105px;
+	width: 686px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.wrapper {
+	width: 686px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+}
+.main {
+	background-color: #FFF;
+	border: 1px solid #024a8c;
+}
+.a1 {
+	margin-top: 20px;
+}
+.bitian {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.bitian_title {
+	background-color: #ebf7ff;
+	height: 28px;
+	width: 600px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	font-size: 14px;
+	line-height: 28px;
+	color: #0B57A2;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.bitian_content {
+}
+.t1 {
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+}
+.input_style1 {
+	height: 22px;
+	width: 200px;
+	border: 1px solid #b5e0fd;
+}
+.button1 {
+	height: 50px;
+	width: 300px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+p {
+	line-height: 18px;
+	margin-top: 16px;
+}
+.affiche_content {
+	width: 580px;
+	margin-left: 20px;
+}
+.zhiban_block {
+	background-color: #CCC;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.block2 {
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	line-height: 24px;
+}
+table td.t3 {
+	color: #666;
+	background-color: #f5f5f5;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+table td.t4 {
+	color: #15428b;
+	background-color: #E7F4FE;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 14px;
+}
+.zhiban_block td {
+	background-color: #FFF;
+}

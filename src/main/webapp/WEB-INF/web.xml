@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<display-name>APEX-UUMS Application</display-name>
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>
+			org.apache.struts2.dispatcher.FilterDispatcher
+		</filter-class>
+		<init-param>
+			<param-name>actionPackages</param-name>
+			<param-value>com.tekview.apex.uums.action</param-value>
+		</init-param>
+	</filter>
+
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>
+			org.springframework.web.filter.CharacterEncodingFilter
+		</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+
+	<filter>
+		<filter-name>loginFilter</filter-name>
+		<filter-class>
+			com.tekview.apex.platform.security.LoginFilter
+		</filter-class>
+		<init-param>
+			<param-name>ignoreUrl</param-name>
+			<param-value>login.action,logout.action,vmRequest</param-value>
+		</init-param>
+		<init-param>
+			<param-name>commonUrl</param-name>
+			<param-value>
+				downlaodAttachment.action,uploadSingleAttachment.action,comment.do,logout.action
+			</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>loginFilter</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+
+	<!--Ajax: DWR start -->
+	<servlet>
+		<servlet-name>dwr-invoker</servlet-name>
+		<servlet-class>
+			org.directwebremoting.servlet.DwrServlet
+		</servlet-class>
+		<init-param>
+			<param-name>
+				org.directwebremoting.extend.Remoter
+			</param-name>
+			<param-value>
+				com.tekview.apex.itsm.server.dwr.SessionCheckRemoter
+			</param-value>
+		</init-param>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>WEB-INF/classes/conf/dwr/dwr.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>activeReverseAjaxEnabled</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<!-- By default DWR creates application scope objects when they are first
+			used. This creates them when the app-server is started -->
+		<init-param>
+			<param-name>
+				initApplicationScopeCreatorsAtStartup
+			</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<!-- This enables full streaming mode. It's probably better to leave this
+			out if you are running across the internet -->
+		<init-param>
+			<param-name>maxWaitAfterWrite</param-name>
+			<param-value>-1</param-value>
+		</init-param>
+		<init-param>
+			<param-name>scriptCompressed</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>allowScriptTagRemoting</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>crossDomainSessionSecurity</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dwr-invoker</servlet-name>
+		<url-pattern>/dwr/*</url-pattern>
+	</servlet-mapping>
+	<!-- Ajax: DWR end -->
+
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			classpath:/conf/spring/applicationContext*.xml
+		</param-value>
+	</context-param>
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+	<listener>
+		<listener-class>
+			com.tekview.apex.itsm.server.system.CAStartupListener
+		</listener-class>
+	</listener>
+
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>/WEB-INF/c.tld</taglib-uri>
+			<taglib-location>/WEB-INF/tlds/c.tld</taglib-location>
+		</taglib>
+		<taglib>
+			<taglib-uri>/WEB-INF/fmt.tld</taglib-uri>
+			<taglib-location>/WEB-INF/tlds/fmt.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>/WEB-INF/fn.tld</taglib-uri>
+			<taglib-location>/WEB-INF/tlds/fn.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>/WEB-INF/apex-oss.tld</taglib-uri>
+			<taglib-location>
+				/WEB-INF/tlds/apex-oss.tld
+			</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>/WEB-INF/mypage.tld</taglib-uri>
+			<taglib-location>/WEB-INF/tlds/mypage.tld</taglib-location>
+		</taglib>
+
+	</jsp-config>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/common/error.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/common/error.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>400</error-code>
+		<location>/common/error.jsp</location>
+	</error-page>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

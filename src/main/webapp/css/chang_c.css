@@ -1,0 +1,43 @@
+@charset('utf-8');
+body{background:#F5F9FC}
+.pop_tiaojian{ padding:12px; height:auto; overflow:hidden}
+.pop_tiaojian ul{ width:auto; height:auto; overflow:hidden; clear:both}
+.pop_tiaojian ul li{ float:left; line-height:32px}
+.pop_biaot{ text-align:right; width:68px; font-size:12px;}
+.tj_quick{ width:20px; overflow:hidden;}
+.pop_ss_bn{width:auto; height:auto; overflow:hidden; text-align:center; padding:8px 0 0}
+.pop_ceng{ width:auto; text-align:center; clear:both; padding-top:10px}
+
+.pop_renwu{ padding:28px 24px 2px 24px; height:auto; overflow:hidden}
+.pop_renwu ul{ width:auto; height:auto; overflow:hidden; clear:both}
+.pop_renwu ul li{ float:left; line-height:38px; height:38px}
+
+
+.pop_dsq{ padding:8px 24px 2px 24px; height:auto; overflow:hidden}
+.pop_dsq ul{ width:auto; height:auto; overflow:hidden; clear:both;padding:0 0 0 24px;}
+.pop_dsq ul li{ float:left; line-height:38px; height:38px}
+
+.pop_dsq_t{ padding:28px 24px 2px 24px; height:auto; overflow:hidden}
+.pop_dsq_t ul{ width:auto; height:auto; overflow:hidden; clear:both}
+.pop_dsq_t ul li{ float:left; line-height:24px;}
+.t_wenzi{ font:700 12px/24px normal; background:url(../images/new_top/r_r2_c2.jpg) no-repeat 0 8px; padding:0 0 0 16px}
+.t_xuxian{height:12px; overflow:hidden; border-bottom:1px dotted #ACBACA;width:80%; margin:0 0 0 12px}
+
+
+.pop_hj{ padding:26px 24px 0px 24px; height:auto; overflow:hidden}
+.pop_hj ul{ width:auto; height:auto; overflow:hidden; clear:both}
+.pop_hj ul li{ float:left; line-height:28px; height:28px}
+
+
+.pop_dsq_t_zy{ padding:28px 24px 2px 24px; height:auto; overflow:hidden}
+.pop_dsq_t_zy ul{ width:auto; height:auto; overflow:hidden; clear:both}
+.pop_dsq_t_zy ul li{ float:left; line-height:24px;}
+.t_wenzi_zy{ font:100 14px/24px normal; background:url(../images/new_top/r_r2_c2.jpg) no-repeat 0 8px; padding:0 0 0 16px}
+.t_xuxian_zy{height:12px; overflow:hidden; border-top:1px dotted #ACBACA;width:98%; margin:0 0 0 12px}
+.pop_dsq_zy{ padding:8px 24px 2px 24px; height:auto; overflow:hidden}
+.pop_dsq_zy ul{ width:auto; height:auto; overflow:hidden; clear:both;padding:0 0 0 24px;}
+.pop_dsq_zy ul li{ float:left; height:38px; font:100 14px/48px normal}
+
+
+.qd_butt{ background:url(../images/zhongyuan/qd.jpg) no-repeat; width:103px; height:32px; padding:0 0 2px 0;*padding:2px 0 0px 0; font-size:14px; text-align:center}
+.qd_butt2{ background:url(../images/zhongyuan/qd2.jpg) no-repeat; width:70px; height:32px; padding:0 0 2px 0;*padding:2px 0 0px 0; font-size:14px; text-align:center}

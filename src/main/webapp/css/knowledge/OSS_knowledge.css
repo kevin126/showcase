@@ -1,0 +1,420 @@
+*{margin:0;padding:0;}
+img{border:0;vertical-align:middle }
+body {font:12px/18px Verdana, Geneva, sans-serif;color:#164883;background:#DCDCDC url(../../images/knowledge/bodyBG.gif) repeat-x;}
+ul, li{margin:0;padding:0;list-style-type:none;}
+a{color:#164883;text-decoration:none;}
+a:hover{text-decoration:underline;color:#164883;}
+h1{float:left;font-size:14px;}
+h2{float:right;margin:3px 3px 0 0;}
+input,textarea{font:12px/18px Verdana, Geneva, sans-serif;}
+.wrapper{width:1091px;margin:11px auto 0px auto;}
+.subject{height:230px;width:1091px;margin-right:auto;margin-left:auto;background:url(../../images/knowledge/subjectBG.gif) no-repeat;}
+.subjectFrame{background:#FFF;border:1px solid #CCC;height:200px;width:300px;margin-left:40px;margin-top:14px;float:left;overflow:hidden;}
+.containerIndex{text-align:left}
+.left{float:left;width:247px;margin-left:8px; text-align:left}
+.left_up{background:url(../../images/knowledge/left_up.gif) no-repeat;height:18px;width:247px;}
+.left_middle{background:url(../../images/knowledge/left_middle.gif) repeat-y;width:247px;display:inline-block;}
+.left_down{background:url(../../images/knowledge/left_down.gif) no-repeat;height:18px;width:247px;clear:both;}
+
+.containerIndex{margin-top:10px;display:inline-block;width:1100px;margin-right:auto;margin-left:auto;overflow:hidden;}
+.right{float:right;width:824px;overflow:hidden;}
+.right_up{background:url(../../images/knowledge/right_up.gif) no-repeat;height:18px;width:824px;overflow:hidden;}
+.right_middle{background:url(../../images/knowledge/right_middle.gif) repeat-y;width:824px;display:inline-block;}
+.right_down{background:url(../../images/knowledge/right_down.gif) no-repeat;height:14px;width:824px;clear:both;}
+.partBox{}
+.partBoxTitle{border-bottom:1px solid #999;color:#1d65a2;font-weight:bold;font-size:14px;line-height:22px;clear:both;padding-left:8px;}
+.partBox{margin-left:15px;margin-right:15px;margin-top:5px;}
+.partBoxContent li{float:left;width:60px;margin-left:4px;line-height:20px;margin-top:4px;}
+.partBoxContent{display:inline-block;margin-left:8px;clear:both;}
+.partBoxTitle a{color:#1d65a2;}
+.partBoxContent li a{color:#000;}
+.questionBox{float:left;width:510px;margin-left:12px;margin-right:12px;margin-bottom:5px;}
+.questionBox2{float:right;width:235px;margin-bottom:5px;margin-right:30px;}
+.questionBox3{float:left;width:480px;margin-left:20px;margin-bottom:5px;}
+.questionBox4{float:right;width:220px;margin-bottom:5px;margin-right:10px;}
+* html .questionBox4{float:right;width:220px;margin-bottom:5px;margin:0 6px 0 0;}
+.questionBox5{margin-bottom:10px;margin-right:20px;margin-left:20px;display:inline-block;clear:both;overflow:hidden;}
+.questionBox6{margin-bottom:10px;margin-right:20px;margin-left:20px;display:inline-block;clear:both;width:1000px;}
+.questionBoxTitle{background:url(../../images/knowledge/greenTbar.gif) no-repeat;background-position:left bottom;height:30px;color:#1f6121;font-size:14px; font-weight:bold;}
+* html .questionBoxTitle{background:url(../../images/knowledge/greenTbar.gif) no-repeat;background-position:left bottom;height:30px;color:#1f6121;font-size:14px;line-height:30px;font-weight:bold;}
+.questionBoxTitle2{background:url(../../images/knowledge/yellowTbar.gif) no-repeat;background-position:left bottom;height:30px;color:#847914;font-size:14px; font-weight:bold;}
+* html .questionBoxTitle2{background:url(../../images/knowledge/yellowTbar.gif) no-repeat;background-position:left bottom;height:30px;color:#847914;font-size:14px;font-weight:bold;}
+.questionBoxTitle3{background:url(../../images/knowledge/blueTbar.gif) no-repeat;background-position:left bottom;height:30px;color:#1d65a2;font-size:14px;font-weight:bold;}
+* html .questionBoxTitle3{background:url(../../images/knowledge/blueTbar.gif) no-repeat;background-position:left bottom;height:30px;color:#1d65a2;font-size:14px;line-height:30px;font-weight:bold;}
+.questionBoxTitle4{background:url(../../images/knowledge/grey_tbar.gif) no-repeat;background-position:left bottom;height:30px;color:#575757;font-size:14px;line-height:30px;font-weight:bold;overflow:hidden;}
+.questionBoxTitle5{background:url(../../images/knowledge/red_tbar.gif) no-repeat;background-position:left bottom;height:30px;color:#611f1f;font-size:14px;line-height:30px;font-weight:bold;overflow:hidden;}
+.questionBoxTitle6{height:30px;font-size:16px;line-height:30px;font-weight:bold;overflow:hidden;margin-top:2px;}
+.titleImg{margin-right:5px;}
+.questionBoxTitle7{background:url(../../images/knowledge/detail/blue_tbar.gif) no-repeat;background-position:left bottom;height:30px;color:#1d65a2;font-size:14px;line-height:30px;font-weight:bold;overflow:hidden;}
+.questionBoxTitle8{background:url(../../images/knowledge/detail/yellow_bigTbar.gif) no-repeat left bottom;height:30px;color:#847914;font-size:14px;line-height:30px;font-weight:bold;}
+.questionBoxTitle9{background:url(../../images/knowledge/detail/blue_bigTbar.gif) no-repeat left bottom;height:30px;color:#1d65a2;font-size:14px;line-height:30px;font-weight:bold;}
+
+
+.qu_le9{background:url(../../images/knowledge/newindex/blue_bigTbar2.gif) no-repeat left bottom;height:30px;color:#f00;font-size:14px;line-height:30px;font-weight:bold;}
+
+
+.questionBoxTitle10{background:url(../../images/knowledge/detail/blue_XXtbar.gif) no-repeat left bottom;height:30px;color:#1d65a2;font-size:14px;line-height:30px;font-weight:bold;}
+.questionBoxContent{background:url(../../images/knowledge/cb.gif) repeat-x left top;padding-left:4px;padding-top:10px;display:inline-block;width:100%;}
+.everyquestion li{float:left;line-height:26px;height:26px;overflow:hidden;border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:#CCC;}
+* html .everyquestion li{float:left;line-height:20px;height:20px;overflow:hidden;border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:#CCC;}
+
+.everyquestion li.e1{background:url(../../images/knowledge/projectIcon.gif) no-repeat left center;text-indent:10px;width:70%;}
+.everyquestion{}
+.everyquestion li.e2{width:20%;color:#0363b2;}
+.everyquestion li.e3{color:#999;width:10%;text-align:right;}
+.everyquestion li.e2 a{color:#0363b2;}
+.questionBoxTitle h1,.questionBoxTitle2 h1,.questionBoxTitle3 h1,.questionBoxTitle4 h1,.questionBoxTitle5 h1,.questionBoxTitle6 h1,.questionBoxTitle7 h1,.questionBoxTitle8 h1  ,.questionBoxTitle9 h1,.questionBoxTitle10 h1{float:left;font-size:14px;}
+.questionBoxTitle h2,.questionBoxTitle2 h2,.questionBoxTitle3 h2,.questionBoxTitle4 h2,.questionBoxTitle5 h2,.questionBoxTitle6 h2 ,.questionBoxTitle7 h2 ,.questionBoxTitle8 h2 ,.questionBoxTitle9 h2  ,.questionBoxTitle10 h2{float:right;margin-top:3px;margin-right:3px;*margin-top:2px; }
+
+
+.questionBoxContent2{background:url(../../images/knowledge/cb.gif) repeat-x left top;padding-top:10px;display:inline-block;width:100%;}
+.questionBoxContent3{background:url(../../images/knowledge/cb.gif) repeat-x left top;padding-top:10px;display:inline-block;width:100%;}
+.everyquestion2 li{float:left;line-height:26px;height:26px;overflow:hidden;border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:#CCC;}
+* html .everyquestion2 li{float:left;line-height:20px;height:20px;padding-top:8px; overflow:hidden;border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:#CCC;}
+.everyquestion2 li.e1{background-repeat:no-repeat;text-indent:10px;width:60%;}
+
+.everyquestion2 li.e2{width:30%;color:#0363b2;}
+.everyquestion3 li{float:left;line-height:26px;height:26px;overflow:hidden;border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:#CCC;}
+* html .everyquestion3 li{float:left;line-height:20px;height:20px;overflow:hidden;border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:#CCC;}
+.everyquestion3 li.e1{background:url(../../images/knowledge/projectIcon.gif) no-repeat left center;text-indent:10px; width:100%; }
+.questionBoxTitle6 h1{color:#1d65a2;}
+.questionBoxContent4{display:inline-block;width:100%;}
+.everyquestion4 li{float:left;line-height:26px;height:26px;overflow:hidden;border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:#CCC;}
+.everyquestion4 li.e1{background:url(../../images/knowledge/projectIcon.gif) no-repeat left center;text-indent:10px;width:80%;}
+
+.everyquestion4 li.e2{width:20%;color:#0363b2;text-align:right;}
+.everyquestion4 li.e2 a{color:#0363b2;}
+.fellow{background:url(../../images/knowledge/detail/fellow.gif) no-repeat;float:left;height:99px;width:69px;margin-left:10px;}
+.talkContent{float:right;width:686px;}
+.talkContentUp{background:url(../../images/knowledge/detail/talk_up.gif) no-repeat;height:33px;width:686px;float:right;}
+.talkContentUp2{background:url(../../images/knowledge/detail/talk_up2.gif) no-repeat;height:33px;width:686px;float:right;}
+.talkContentMiddle{background:url(../../images/knowledge/detail/talk_middle.gif) repeat-y;background-position:right top;width:672px;float:right;}
+.talkContentDown{background:url(../../images/knowledge/detail/talk_down.gif);float:right;height:16px;width:672px;}
+.talkInner{font-size:14px;margin:20px;}
+.operation{margin-left:20px;clear:both;}
+.talkContentUp h1,.talkContentUp2 h1{margin-top:8px;margin-left:35px;}
+.talkContentUp h2{font-size:12px;color:#999;margin-top:8px;margin-right:10px;}
+.everyAnswer{}
+.everyAnswer{clear:both;margin-bottom:10px;display:inline-block;}
+.tab1{float:right;width:187px;margin-right:18px;margin-top:1px;}
+.tab1 li{float:right no-repeat;font-size:12px;overflow:hidden;text-align:left;text-indent:26px;color:#666;}
+.tab1 li.e1 a{background:url(../../images/knowledge/everyTab1.gif);height:39px;width:187px;display:block;line-height:39px;}
+.tab1 li.e2 a{background:url(../../images/knowledge/everyTab2.gif);height:39px;width:187px;display:block;line-height:39px;}
+.tab1 li.e3 a{background:url(../../images/knowledge/everyTab3.gif);height:39px;width:187px;display:block;line-height:39px;}
+.tab1 li.e4 a{background:url(../../images/knowledge/everyTab4.gif);height:37px;width:187px;display:block;line-height:37px;}
+.tab1 li.e5 a{background:url(../../images/knowledge/everyTab5.gif);height:37px;width:187px;display:block;line-height:39px;}
+.tab1 li.e6 a{background:url(../../images/knowledge/everyTab6.gif);height:37px;width:187px;display:block;line-height:37px;}
+.tab1 li.e1 a.hover{background:url(../../images/knowledge/everyTab1_show.gif);color:#fff}
+.tab1 li.e2 a.hover{background:url(../../images/knowledge/everyTab2_show.gif);color:#fff }
+.tab1 li.e3 a.hover{background:url(../../images/knowledge/everyTab3_show.gif);color:#fff}
+.tab1 li.e4 a.hover{background:url(../../images/knowledge/everyTab4_show.gif);color:#fff}
+.tab1 li.e5 a.hover{background:url(../../images/knowledge/everyTab5_show.gif);color:#fff}
+.tab1 li.e6 a.hover{background:url(../../images/knowledge/everyTab6_show.gif);color:#fff}
+.tab1 li a{color:#666;}
+.tab1 li a:hover{color:#FFF;text-decoration:none;}
+.mt1{margin-top:8px;}
+.questionBoxTitle6 h1 a{color:#1d65a2 }
+.bg{background-color:#DDD;display:inline-block;width:100%;}
+.font_red{color:#F00;}
+.fen{margin-right:2px;}
+.bigContentBox{}
+.bigContentUp{background:url(../../images/knowledge/person/bigContent_up.gif) no-repeat;height:12px;width:1067px;}
+.bigContentMiddle{background:url(../../images/knowledge/person/bigContent_middle.gif) repeat-y;width:1067px;display:inline-block;}
+.bigContentDown{background:url(../../images/knowledge/person/bigContent_down.gif) no-repeat;height:17px;width:1067px;}
+.bigContentBox{margin-top:20px;}
+.person_left{float:left;margin-top:20px;margin-left:20px;width:250px;}
+.talkInner2{margin-left:20px;margin-right:20px;}
+.answerTextarea{float:left;margin-left:20px;width:626px;}
+.operation h2{margin-right:20px;}
+.fellow_answer{float:left;height:99px;width:69px;margin-left:10px;}
+.blue_button{color:#FFF;background-color:#175f9b;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#cee9ff;border-right-color:#041a2b;border-bottom-color:#041a2b;border-left-color:#cee9ff;line-height:24px;font-size:12px;width:60px;padding-right:4px;padding-left:4px;}
+.blue_button a{color:#FFF;}
+.blue_button a:hover{text-decoration:none;color:#B6E2FA;}
+.questionForm{margin-top:10px;margin-left:20px;}
+.questionForm td.tableTdT1{line-height:24px;background:url(../../images/knowledge/detail/tableT1.gif) repeat-x;text-align:right;font-weight:bold;background-color:#EAF0F6;}
+
+textarea{border:1px solid #CCC repeat-y;}
+.radio{border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;background-color:#FFF;}
+.blueFrame{border:1px solid #9fbed9;width:500px;margin-top:5px;padding:5px;}
+.textareaStyle{width:550px;}
+.inputStyle{width:550px;background:url(../../images/knowledge/detail/inputBg.gif);line-height:20px;color:#666;height:20px;border:1px solid #CCC; }
+h3{color:#0363b2;}
+.title a{color:#0363b2;}
+.detail{font-size:12px;font-weight:normal;color:#666;margin:5px;}
+
+
+
+
+#apDiv2 {position:absolute;left:584px;top:62px;width:597px;height:286px;z-index:1001;}
+*+html #apDiv2 {position:absolute;left:598px;top:109px;width:597px;height:286px;z-index:1001;}
+#apDiv1 {position:absolute;left:668px;top:62px;width:597px;height:286px;z-index:1002;}
+*+html #apDiv1 {position:absolute;left:684px;top:109px;width:597px;height:286px;z-index:1002;}
+
+#apDiv3 {position:absolute;left:626px;top:492px;width:547px;height:286px;z-index:1001;}
+.huo_cai_gai{margin:4px 4px 0}
+*+html .huo_cai_gai{margin:4px 4px 0}
+.apdiv_top{width:596px;height:22px;padding:0 0 0 0;overflow:hidden}
+.apdiv_top h1{width:597px;float:left;height:22px;overflow:hidden;background:url(../../images/knowledge/newindex/rr_r1_c2.gif) no-repeat bottom;text-align:center}
+.apdiv_coun{width:597px;height:auto;overflow:auto}
+.zuo_er{width:17px;height:307px;float:left;background:url(../../images/knowledge/newindex/r1.gif) repeat-y;overflow:auto}
+.ap_neirong{float:left;background:#F9F9F9 url(../../images/knowledge/newindex/w_r3_c6.gif) right repeat-y;width:571px;height:307px;overflow:hidden}
+.ap_nei{width:569px;height:307px;overflow:auto;padding:2px 0 0 0;background:url(../../images/knowledge/newindex/h2_c3.gif);background-attachment:scroll}
+.ap_nei ul{width:530px;margin:0px 8px 0 8px;}
+.ap_nei ul li{width:170px;margin:2px 3px 4px 0;float:left;height:28px}
+* html .ap_nei ul li{width:170px;margin:2px 3px 4px 0;float:left;height:28px}
+.apdiv_bottom{height:39px;background:url(../../images/knowledge/newindex/sr5_c2.gif) 16px 0 no-repeat;text-align:center}
+.ap_b{background:url(../../images/knowledge/newindex/br2_c2.gif) no-repeat;width:66px;height:25px;border:none;margin:8px 0 0 8px}
+
+.apdiv_top_yz{width:377px;height:11px;padding:0 0 0 0;overflow:hidden}
+*+html .apdiv_top_yz{width:377px;height:12px;padding:0 0 0 0;overflow:hidden}
+.apdiv_top_yz h1{width:377px;float:left;height:12px;overflow:hidden;}
+.apdiv_coun_yz{width:377px;height:auto;overflow:hidden;}
+.zuo_er_yz{width:17px;height:120px;float:left;background:url(../../images/knowledge/newindex/r1.gif) repeat-y;overflow:hidden;}
+.ap_neirong_yz{float:left;background:#fff ;border-right:1px #CFD7E0 solid ;width:358px;height:120px;overflow:hidden;}
+.ap_nei_yz{width:365px;height:120px;overflow:auto;padding:2px 0 0 0;}
+.ap_nei_yz ul{width:330px;margin:0px 8px 0 8px;}
+.ap_nei_yz ul li{width:150px;margin:2px 3px 4px 0;float:left;height:28px}
+* html .ap_nei_yz ul li{width:150px;margin:2px 3px 2px 0;float:left;height:28px}
+.apdiv_bottom_yz{height:12px;width:377px; background:url(../../images/knowledge/newindex/sr5_c22.gif) 16px -28px no-repeat;text-align:center}
+.ap_b_yz{background:url(../../images/knowledge/newindex/br2_c2.gif) no-repeat;width:66px;height:25px;border:none;margin:8px 0 0 8px;cursor:pointer}
+.tuo_op{padding:0 0 0 4px;height:24px;}
+.tuo_op span{padding:0 0 0 4px;font-weight:700;}
+.tuo_op em{text-align:right;padding:0 0 0 240px;font:100 12px/24px Arial, Helvetica, sans-serif;color:#999;background:url(../../images/knowledge/newindex/6_r3_c6.jpg) 230px 3px no-repeat}
+*+html .tuo_op em{text-align:right;padding:0 0 0 240px;font:100 12px/24px Arial, Helvetica, sans-serif;color:#999;background:url(../../images/knowledge/newindex/6_r3_c6.jpg) 230px 2px no-repeat}
+.tuo_op em a{color:#999}
+.hei_11{background:url(../../images/knowledge/newindex/s_r4_c3.jpg) repeat-x;width:100%;height:11px;}
+.zhuanti_inp{border:1px solid #ccc;height:18px;width:200px}
+.zhuantu_wen{padding:4px 0 0 12px}
+.chuangxin_b{background:url(../../images/knowledge/newindex/4_r8_c6.jpg) no-repeat;width:66px;height:18px;border:none;margin:0 0 0 12px;cursor:pointer}
+.but_p{background:url(../../images/knowledge/newindex/t_r10_c6.jpg) no-repeat;width:80px ;height:22px;border:none;margin:0 0 0 12px;cursor:pointer}
+.annie{margin:28px 0 0 0;width:100%;text-align:center}
+.tihshi_ans{padding:10px 0 0 38px;background:url(../../images/knowledge/knowledge/newindex/yr12_c12.jpg) 0 4px no-repeat;height:28px;}
+.annie2{margin:12px 0 0 0;width:100%;text-align:center}
+.jiange_ossk{height:12px;width:100%;clear:both}
+
+.login_css{ width:100%; text-align:center; margin:16px 0 17px 0;}
+*+html .login_css{ width:100%; text-align:center; margin:4px 0 17px 0}
+.login_shuru{ margin:50px 0 20px 34px; font:100 14px/20px verdana; text-align:left}
+.login_shuru ul{ clear:both; width:100%; height:46px}
+.login_shuru ul li{ float:left; width:auto}
+.inp_d{ height:20px; border:#7F9DB9 1px solid}
+.login_b{ background:url(../../images/knowledge/newindex/2_r5_c6.jpg); width:90px; height:32px; border:none; margin:0 0 0 56px; cursor:pointer}
+.xuxiange{ height:1px; overflow:hidden; background:url(../../images/knowledge/newindex/2_r7_c6.jpg); margin:10px}
+.reg_b{ margin:12px}
+.foot_ge{ background:url(../../images/knowledge/newindex/2_r16_c17.jpg) repeat-x; width:100%; height:2px; overflow:hidden}
+.bai_foot{ background:#FFF}
+.toup_c{ width:554px; height:auto; margin:0 auto 0 auto; padding:1px; border:#CCC solid 1px; background:#FFF}
+.bg_ceng{width:100%; height:auto; background:url(../../images/knowledge/newindex/2_4_s1.jpg) repeat-x;}
+.top_toupi{ padding:10px 0 0 12px; height:40px; overflow:hidden}
+.wenzi_ganxie{ font:700 16px/34px Arial, Helvetica, sans-serif; margin:30px}
+.xugexian_s{ margin:0 30px 0 30px}
+.xiaowe{ font-size:12px; margin:0 0 0 30px; height:24px}
+.toupiao_xiang{ margin:20px 0 0 30px; height:300px; overflow-y:auto; overflow-x:hidden}
+.biao_tuop{ height:10px; overflow:hidden; background:url(../../images/knowledge/newindex/u1_r4_c4.jpg) repeat-x; border:1px solid #F90}
+.nane_etou{ width:80px; float:left;height:20px; overflow:hidden; text-align:right}
+.nane_jindu{width:220px; float:left;height:20px; overflow:hidden; padding:4px 4px 4px 4px}
+.nane_etou2{ width:auto; float:left;height:20px; overflow:hidden; text-align:left}
+.nane_etou3{ width:auto; float:left;height:20px; overflow:hidden; text-align:left; color:#F00}
+.toupiao_xiang ul{ clear:both; height:24px; width:100%}
+.bu_tiuc{ background:url(../../images/knowledge/newindex/u1_r6_c6.jpg) no-repeat; width:146px; height:40px; cursor:pointer; border:none}
+.but_ceng2{ width:100%;text-align:center}
+.no_date{ height:240px; border:1px dashed #CCC; margin:10px; padding:10px; overflow:hidden}
+.nei_no_date{ height:18px;border:3px solid #CCC; text-align:center; padding:100px 0 }
+.no_date2{ height:120px; border:1px dashed #CCC; margin:10px; padding:10px; overflow:hidden}
+.nei_no_date2{ height:18px;border:3px solid #CCC; text-align:center; padding:40px 0 }
+.cuowutishi{ color:#F0741C; background:url(../../images/knowledge/newindex/fgr13_c9.jpg) no-repeat 4px 6px; padding:4px 0 0 20px;font:100 12px/16px Arial, Helvetica, sans-serif; float:left}
+*+html .cuowutishi{ color:#F0741C; background:url(../../images/knowledge/newindex/fgr13_c9.jpg) no-repeat 4px 4px; padding:4px 0 0 20px;font:100 12px/16px Arial, Helvetica, sans-serif; float:left}
+.ad_left_kg{ width:184px; height:auto; overflow:hidden; float:left; padding:0 0 20px 0}
+.ad_right_kg{ width:790px;height:auto; overflow:hidden; margin:0 0 20px 20px; float:left}
+.top_geren{ height:90px; overflow:hidden;}
+.top_geren h1{ float:left; background:url(../../images/knowledge/newindex/7_r2_c2.jpg) no-repeat; width:82px; height:90px;margin:0; padding:0}
+.top_geren h2{ float:left; background:url(../../images/knowledge/newindex/y_r2_c3.jpg) no-repeat; width:102px; height:90px;margin:0; padding:0}
+.an_n_m{ font:700 12px/24px arial; margin:20px 0 0 4px; color:#333; text-align:left}
+.an_fenshu{ font:100 12px/24px arial;margin:0px 0 0 4px; color:#333; text-align:left}
+.gongnen_c{ margin:10px 0 0 0}
+.chuang_list{ height:auto; overflow:hidden; width:100%}
+.zhanti_ti{ text-align:left; margin:20px 0 0 0; float:left; width:auto; overflow:hidden}
+.changjian_v{padding:0 0 6px 24px;text-align:left; margin:12px 0 30px 0; float:left; width:100%; overflow:hidden; background:url(../../images/knowledge/newindex/4_r3_c5.jpg) no-repeat; font-weight:700; border-bottom:3px solid #185488; line-height:18px; font-size:14px;}
+*+html .changjian_v{padding:0 0 6px 24px;text-align:left; margin:12px 0 30px 0; float:left; width:100%; overflow:hidden; background:url(../../images/knowledge/newindex/4_r3_c5.jpg) no-repeat; font-weight:700; border-bottom:3px solid #185488; line-height:20px; font-size:14px;}
+.ch_zh_na{margin:12px 0 0 20px; text-align:left; font-size:14px; line-height:18px;height:auto; clear:both}
+.ch_zh_na span{ font-size:12px;}
+.chan_inp{ height:19px; border:1px solid #D0D0D0;}
+.tijiao_b{margin:12px 0 0 88px; width:auto; text-align:left; }
+.chuanjian_b{ background:url(../../images/knowledge/newindex/4_r11_c8.jpg) no-repeat; width:81px; height:22px; cursor:pointer; border:none}
+.chuang_l_title{text-align: left;padding:0 0 0 0;margin:0px 0 0 0;font-weight:700;border-bottom:3px solid #185488; width:100%; height:36px}
+.boao_table_head{background: url(../../images/knowledge/newindex/5_r2_c2.jpg) repeat-x; height:auto; overflow:hidden; }
+.t_b_t{text-indent:4px}
+.t_b_thead{font-weight:700; line-height:22px; text-align:left}
+.t_b_tbody{font-weight:100; line-height:26px; text-align:left; background:url(../../images/knowledge/newindex/t_r6_c4.jpg) repeat-x bottom}
+.t_b_tbody2{font-weight:100; line-height:26px; text-align:left; background:#f5f5f5 url(../../images/knowledge/newindex/t_r6_c4.jpg) repeat-x bottom}
+.t_b_tbody3{font-weight:100; line-height:26px; text-align:left; background:#ECF1F5}
+.tuo_but_2{ color:#fff; font-size:12px; line-height:16px; padding:1px 0; background:url(../../images/knowledge/newindex/0_r4_c4.jpg) no-repeat; width:34px; height:16px; border:none; cursor:pointer; margin:0 0 0 4px}
+
+.tuo_but_22{ color:#fff; font-size:12px; line-height:16px; padding:1px 4px 0 4px; background:url(../../images/knowledge/newindex/0_r4_c4.jpg) no-repeat; width:34px; height:16px; border:none; cursor:pointer; margin:0 0 0 4px; text-decoration:none}
+.tuo_but_22 a{ color:#fff;  text-decoration:none}
+.btcb{ background:url(../../images/knowledge/newindex/6_r9_c4.jpg) no-repeat; border:none; width:80px; height:22px; font:700 14px/22px Arial, Helvetica, sans-serif; color:#fff; float:left;}
+
+.fenye_cs_d{float:right}
+.fenye_cs_d a{ text-decoration:none}
+.fenye_cs_d span{ padding:1px 2px 1px 2px; border:#BECFE1 1px solid; background:#E9EEF4; margin:0 4px 0 4px; cursor:pointer}
+.fenye_cs_d em{ color:#036; font:100 12px/24px Arial, Helvetica, sans-serif;  padding:1px 2px 1px 2px;  margin:0 4px 0 4px; cursor:pointer}
+.tu_clear{ clear:both}
+.no_2{ height:auto; border:1px dashed #CCC; margin:2px; padding:3px; overflow:hidden}
+.nei_no_2{ height:260px;border:1px solid #CCC; text-align:center; overflow:hidden}
+
+.shou_r { height:auto;padding:4px 0 0 0; text-align:left; margin:6px}
+.shou_r span{ font-weight:700}
+.btcb2{ background:url(../../images/knowledge/newindex/5_r12_c6.jpg) no-repeat; border:none; width:80px; height:22px; font:700 12px/22px Arial, Helvetica, sans-serif; color:#333; float:left}
+
+.sou_b{ width:80px; height:22px;  border:none; cursor:pointer; background:url(../../images/knowledge/newindex/5_r12_c7.jpg) no-repeat}
+.wen_ti{ background: url(../../images/knowledge/newindex/4_r15_c6.jpg) no-repeat; padding:0 0 0 26px; float:left; height:20px; margin:16px 0 0 0}
+.anli_c{ float:right; height:30px; padding:0 8px 4px 0}
+.ti_d{ background:url(../../images/knowledge/newindex/6_r2_c2.jpg) no-repeat ;width:102px; height:30px; border:none; cursor:pointer; margin:0 0 4px 0}
+
+
+.ti_d1{ background:url(../../images/knowledge/newindex/6_r2_c2.jpg) no-repeat 0 0px;width:102px; height:27px; border:none; cursor:pointer; margin:0 0 4px 0}
+.ti_d2{ background:url(../../images/knowledge/newindex/6_r2_c2.jpg) no-repeat 0 -46px;width:102px; height:27px; border:none; cursor:pointer; margin:0 0 4px 0}
+.ti_d3{ background:url(../../images/knowledge/newindex/6_r2_c2.jpg) no-repeat 0 -93px;width:102px; height:27px; border:none; cursor:pointer; margin:0 0 4px 0}
+.ti_d4{ background:url(../../images/knowledge/newindex/6_r2_c2.jpg) no-repeat 0 -142px;width:102px; height:27px; border:none; cursor:pointer; margin:0 0 4px 0}
+
+
+.tt_c{ background:#C4D7E8 url(../../images/knowledge/newindex/t_r2_c2.jpg) repeat-x; margin:12px 20px 12px 20px; padding:0 0 16px 0}
+.sear_tag{ margin:16px; height:26px; overflow:hidden; line-height:32px; font-size:14px;}
+.fenlei_l{height:auto; overflow:hidden;  margin:0 16px 0 16px; background:#FFF; border:#A0BED8 1px solid; padding:12px;}
+
+.fenlei_l ul{background:url(../../images/knowledge/newindex/6_r3_c4.jpg); width:99%; height:auto; overflow:hidden;}
+
+.fenlei_t{ height:18px; overflow:hidden; border-bottom: 1px solid #A1BDD3; padding:0 0 0 2px}
+.fenlei_l ul li{ background: url(../../images/knowledge/newindex/yr3_c4.jpg) no-repeat 5px 14px;padding:0 0 0 14px;height:30px; line-height:36px; margin:0 8px 0 0; float:left; width:120px;word-break: keep-all;display:inline}
+.fenlei_l ul li a{ text-decoration:underline;  display:block; float:left;word-break: keep-all;}
+.fenlei_l ul li em{ color:#666; font:100 12px/36px Arial, Helvetica, sans-serif; display:block; float:left}
+.ajui{ margin:18px 0 0 0}
+.top_gejian{ width:100%; height:8px; overflow:hidden}
+.s_css_inp{ border:none; background:none; float:left}
+.sou_b22{ background: url(../../images/knowledge/newindex/4_r5_c6.jpg) no-repeat; border:none; float:right; height:18px; width:18px; cursor:pointer}
+.sousuokuang{ height:20px; background:url(../../images/knowledge/newindex/4_r6_c8.jpg); border:1px solid #ccc; width:240px; margin:12px 0 0 0; padding:4px 4px 0 4px}
+.r_d_cs{ margin:18px 24px 18px 24px; height:auto; overflow:hidden}
+
+
+#tab1{background:#fff;height:auto;width:100%;padding:0 0 10px 0; margin:0 0 24px 0px}
+* html #tab1{background:#fff;height:auto;width:100%;padding:0 0 10px 0; margin:0 0 24px 0px;}
+#tab1 ul{display:none;}
+#tab1 ul li{padding:0 0 0 0;}
+#tab1 ul.block{display:block;}
+#menu1 {height:24px; width:auto; text-align:center;font:100 12px/24px Arial; background:url(../../images/knowledge/newindex/6_r8_c6.jpg) repeat-x}
+#menu1 h2{float:left;width:6px; height:24px; background:url(../images/ci_por/bu.jpg) no-repeat}
+#menu1 h3{float:left;cursor:pointer; width:auto;font:100 12px/26px Arial; padding:0 6px 0 2px;background:url(../../images/knowledge/newindex/5_r8_c10.jpg) repeat-x; overflow:hidden; height:24px;width:82px; margin:0 4px 0 4px}
+#menu1 h3 a{padding:0px 6px 0px 2px;overflow:hidden; height:24px; font:700 12px/24px Arial;text-decoration:none; color:#333333;width:82px;float:left;overflow:hidden;padding-right:0px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;}
+*+html #menu1 h3 a{padding:0px 6px 0px 2px;overflow:hidden; height:24px; font:700 12px/26px Arial;text-decoration:none; color:#333333;width:82px;float:left;overflow:hidden;padding-right:0px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;}
+#menu1 h3:after{content:"..."!important;}
+
+#menu1 h3.hover{height:24px; width:82px;font:100 14px/26px arial;background:url(../../images/knowledge/newindex/6_r8_c2.jpg) repeat-x;}
+#menu1 h3.hover em{font:100 12px/26px Arial;padding:0 6px 0 2px}
+#menu1 h3.hover a{display:block; float:left;width:82px;font:700 12px/24px Arial;padding:0px 4px 2px 4px;color:#fff;text-decoration:none; height:24px;}
+#menu1 h3.hover:after{content:""!important;}
+#menu1 h4{float:right;width:5px; height:24px; background:url(../images/ci_por/dc8.jpg) no-repeat}
+.bg_1{ background:#ddd; height:auto; overflow:hidden}
+.ass_dtbiao{ padding:12px 0 20px 0}
+.ass_biao td{ border-bottom:4px solid #fff; height:24px; border-right:1px solid #fff; padding:4px 2px 2px 4px;}
+.pingjia_img{ float:left; padding:0 4px 0 0}
+.tea_cs{ border:1px solid #ccc;}
+
+.pinjia_kuang7{ border:#D0A212 1px solid; height:auto; overflow:hidden; width:572px; text-align:left; background:#FFF}
+.pinjia_kuang7 h1{background:url(../../images/knowledge/newindex/62_r2_c2.jpg) repeat-x; height:31px; width:100%; padding:8px 0 0 8px}
+.flo_r{ float:right; margin:0 10px 0 0}
+.flo_l{ float:left}
+.p_xing{ height:42px; overflow:hidden; padding:10px 12px 10px 12px}
+.p_xing h1{padding:0; margin:0; font:100 12px/20px arial; height:56px; overflow:hidden; width:7px; float:left;background:none}
+.p_xing h2{ padding:2px 10px 0 16px; margin:0; font:100 12px/38px arial; height:58px; overflow:hidden; width:210px; float:left}
+.p_xing h3{padding:0; margin:0; font:100 12px/20px arial; height:42px; overflow:hidden; width:7px;  float:left}
+
+/*.p_xing h1{padding:0; margin:0; font:100 12px/20px arial; height:42px; overflow:hidden; width:7px; background:url(../../images/knowledge/newindex/112_r7_c5.jpg) no-repeat; float:left}
+.p_xing h2{ padding:2px 10px 0 10px; margin:0; font:700 12px/38px arial; height:40px; overflow:hidden; width:210px; background:url(../../images/knowledge/newindex/122_r7_c6.jpg) repeat-x; float:left}
+.p_xing h3{padding:0; margin:0; font:100 12px/20px arial; height:42px; overflow:hidden; width:7px; background:url(../../images/knowledge/newindex/132_r7_c9.jpg) no-repeat; float:left}
+*/
+
+.tishi_tig{ height:20px ; width:90%; background:#D7E9FF; font:100 12px/24px arial; margin:6px; padding:6px; color:#725512}
+.iiu_w{ width:74px;height:24px; background:url(../../images/knowledge/newindex/782_r11_c15.jpg) no-repeat; border:none; cursor:pointer}
+.yk_q{ text-align:left}
+.xiaoxi_d{ padding:16px 16px 16px 16px; height:auto; overflow:hidden; background:#FFF; border:#CCD9E8 1px solid; line-height:24px;word-wrap:break-word; width:630px}
+.buu1{ width:85px; height:26px;  border:none; cursor:pointer; background:url(../../images/knowledge/newindex/y1_r1_c1.jpg) no-repeat; text-align:right; color:#039; padding:0 8px 0 0}
+.buu2{ width:85px; height:26px;  border:none; cursor:pointer; background:url(../../images/knowledge/newindex/y1_r1_c3.jpg) no-repeat; text-align:right; color:#039; padding:0 6px 0 0}
+.buu3{ width:85px; height:26px;  border:none; cursor:pointer; background:url(../../images/knowledge/newindex/y1_r1_c5.jpg) no-repeat; text-align:right; color:#039; padding:0 4px 0 0}
+.buudel{ width:85px; height:26px;  border:none; cursor:pointer; background:url(../../images/knowledge/newindex/y1_r1_c1_del.jpg) no-repeat; text-align:center; color:#039; padding:0 4px 0 0}
+.buuedit{ width:85px; height:26px;  border:none; cursor:pointer; background:url(../../images/knowledge/newindex/y1_r1_c1_edit.jpg) no-repeat; text-align:center; color:#039; padding:0 4px 0 0}
+.buusubmit{ width:85px; height:26px;  border:none; cursor:pointer; background:url(../../images/knowledge/newindex/y1_r1_c1_submit.jpg) no-repeat; text-align:center; color:#039; padding:0 4px 0 0}
+.anli_cf{ float:right; height:26px; padding:6px 0px 2px 0}
+.yc_wr{ padding:34px 34px 30px 34px; background:#EBF0F6; border:1px solid #BCCBDB; margin:20px 0 0 0; height:auto; overflow:hidden}
+.di_ssl{ width:72px;float:left; text-align:right}
+.di_ssr{ width:80%; float:left; text-align:left}
+.yi_e{ border:1px solid #CEDBE8}
+.yi_e2{width:85px; height:26px;  border:none; cursor:pointer; background:url(../../images/knowledge/newindex/y1_r6_c2.jpg) no-repeat; text-align:center; color:#333}
+.ann_tyw{ width:100%; clear:both; margin:18px 0 0 0; padding:14px 0 0 0; height:auto; overflow:hidden}
+.vusi_2{ padding:8px; height:auto; overflow:hidden}
+.ffs_r{ float:left; width:70px}
+.ffs_r2{ float:left; width:160px}
+.y_an_e{ width:100%; text-align:center; padding:16px}
+.rr_42{ clear:both; height:20px ;}
+.div_error{ padding:60px 0 60px 300px; background:#DFB8B9; border:#AB8183 1px solid; margin:20px; height:auto; overflow:hidden}
+.yang_c h1{ background:url(../../images/knowledge/newindex/2_r2_c2e.jpg) no-repeat; padding:0 0 0 36px; line-height:42px; height:42px; color:#900}
+.yang_c h2{ clear:both; font:100 12px/30px Arial, Helvetica, sans-serif; float:left; padding:0px 0 0 40px}
+.windownbg { display: none; position: absolute; width: 100%; height: 100%; background: #000; top: 0; left: 0;}
+
+/*弹出告警提示样式*/
+.border_solid{border:1px #ADBACA solid;}
+.subcenter_title{background:#fff; height:auto; overflow: hidden}
+.subcenter_title h1{ font:700 12px/31px verdana; padding:0 0 0 30px; overflow:hidden;}
+.baowei_c{ width:auto; background:#BBD0E9 url(../../images/knowledge/newindex/index_bg.jpg) repeat-x; height:30px; margin:1px; overflow:hidden}
+*+html .baowei_c{ width:auto; background:#BBD0E9 url(../../images/knowledge/newindex/index_bg.jpg) repeat-x; height:30px; margin:1px 1px 0px 1px; overflow:hidden}
+.tubiao7{background:url(../../images/knowledge/newindex/tubiao.gif) no-repeat 8px -178px; float:left}
+.space{height:0px;border-top:1px #ADBACA solid; width:auto; overflow:hidden; clear:both}
+.new_jinggaocenter{width:280px;height:auto; overflow: hidden; background:#F4F7F9 ; margin:0 6px 6px 0; overflow:hidden}
+.new_jinggaocenter_tishi2{width:380px;height:auto; overflow: hidden; background:#F4F7F9 ; margin:0 6px 6px 0; overflow:hidden}
+.jinggao_content{ background:#F4F7F9; margin:0px; padding:0px 0px 0px 0px; text-align:center; height:auto; overflow:hidden}
+.tishi_main{ margin:20px 0 8px 16px; text-align:left; background:url(../../images/knowledge/newindex/2_r12_c5.gif) no-repeat; padding:0 0 0 40px; height:25px; line-height:30px; overflow:hidden; width:auto; float:none; clear:both}
+*html .tishi_main{ margin:0px 0 8px 16px; text-align:left; background:url(../../images/knowledge/newindex/2_r12_c5.gif) no-repeat; padding:0 0 0 40px; height:25px; line-height:30px; overflow:hidden; width:auto; float:none; clear:both}
+.tishi_main2{ margin:20px 0 8px 16px; text-align:left; background:url(../../images/knowledge/newindex/messager_info.gif) no-repeat; padding:0 0 0 40px; height:32px; line-height:30px; overflow:hidden; width:auto;}
+*html .tishi_main2{ margin:0px 0 8px 16px; text-align:left; background:url(../../images/knowledge/newindex/messager_info.gif) no-repeat; padding:0 0 0 40px; height:32px; line-height:30px; overflow:hidden; width:auto; float:none; clear:both}
+
+
+.new_jinggaocenter_tishi3{width:340px;height:auto; overflow: hidden; background:#F4F7F9 ; margin:0 6px 6px 0; overflow:hidden}
+.tishi_main3{ margin:20px 0 8px 16px; text-align:left; background:url(../../images/knowledge/newindex/messager_info.gif) no-repeat; padding:0 0 0 48px; height:32px; line-height:30px; overflow:hidden; width:auto;}
+*html .tishi_main3{ margin:0px 0 8px 16px; text-align:left; background:url(../../images/knowledge/newindex/messager_info.gif) no-repeat; padding:0 0 0 40px; height:32px; line-height:30px; overflow:hidden; width:auto; float:none; clear:both}
+.tishi_main3 input{ border:#CCC 1px solid; width:220px; height:20px; margin:4px 0}
+
+.tishi_main4{ margin:20px 0 8px 16px; text-align:left; background:url(../../images/knowledge/newindex/messager_error.gif) no-repeat; padding:0 0 0 48px; height:32px; line-height:30px; overflow:hidden; width:auto;}
+*html .tishi_main4{ margin:0px 0 8px 16px; text-align:left; background:url(../../images/knowledge/newindex/messager_error.gif) no-repeat; padding:0 0 0 48px; height:32px; line-height:30px; overflow:hidden; width:auto; float:none; clear:both}
+
+
+
+
+.tishi_butt{ margin:0 20px 18px 20px; text-align:center}
+.tishi_queren{ background: url(../../images/knowledge/newindex/r_r2_c3.jpg) no-repeat; width:72px; height:26px; border:none; cursor:pointer; margin:6px; color:#036; line-height:26px;}
+.tishi_quxiao{ background: url(../../images/knowledge/newindex/r_r2_c3.jpg) no-repeat; width:72px; height:26px; border:none; cursor:pointer; margin:6px; color:#666;line-height:26px;}
+* html .tishi_queren{ background: url(../../images/knowledge/newindex/r_r2_c3.jpg) no-repeat; width:72px; height:26px; border:none; cursor:pointer; margin:6px; color:#036; line-height:24px;}
+* html .tishi_quxiao{ background: url(../../images/knowledge/newindex/r_r2_c3.jpg) no-repeat; width:72px; height:26px; border:none; cursor:pointer; margin:6px; color:#666;line-height:24px;}
+
+.commonListDiv{width: 100%}
+.subjectSearch{ background: url(../../images/knowledge/newindex/4_r15_c6.jpg) no-repeat 0; padding:0 0 0 26px; float:left; height:15px; font-size:15px;margin:10px 0 3px 0; line-height: 15px}
+.logonTip{font-size: 12pt; font-weight: bold; text-align: center;width: 100%; display: block;}
+
+.baocun_inp{ background:url(../../images/knowledge/newindex/y1_r6_c2.jpg) no-repeat; height:26px; width:85px; border:none; cursor:pointer; font-size:14px; margin:0 10px}
+.tangchukuang{ background:#FFF; padding:4px 12px 12px 12px; border:4px solid #BACDEB;}
+.tijiao_b{margin:24px 0 0 0px; width:auto; text-align:center; }
+.nei_no_2{ height:560px;border:1px solid #CCC; text-align:center; overflow:auto}
+
+
+.new_jinggaocenter_tishi_d{width:420px;height:238px; overflow: hidden; background:#F4F7F9 ; margin:0 6px 6px 0; overflow:hidden}
+.tishi_main3 input{ border:#CCC 1px solid; width:220px; height:20px; margin:4px 0}
+.login_shuruxiao{ margin:20px 0 0px 44px;*margin:4px 0 0px 44px; font:100 12px/20px verdana; text-align:left}
+*+html .login_shuruxiao{ margin:0px 0 0px 44px; font:100 12px/20px verdana; text-align:left}
+.login_shuruxiao ul{ clear:both; width:100%; height:30px}
+.login_shuruxiao ul li{ float:left; width:auto}
+.cuowutishi2_0{ color:#F0741C; background:url(../../images/knowledge/newindex/fgr13_c9.jpg) no-repeat 4px 6px; padding:4px 0 0 20px;font:100 12px/16px Arial, Helvetica, sans-serif; float:left}
+*+html .cuowutishi2_0{ color:#F0741C; background:url(../../images/knowledge/newindex/fgr13_c9.jpg) no-repeat 4px 4px; padding:4px 0 0 20px;font:700 12px/20px Arial, Helvetica, sans-serif; float:left}
+.tishi_butt_d ul{ margin:10px 0 0 0; text-align:center}
+.tishi_butt_d ul li{ display:inline; line-height:18px}
+.tishi_butt_d{ margin:0 20px 12px 20px; text-align:center}
+.wjim{background:url(../../images/knowledge/newindex/vt-1.gif) no-repeat 4px 4px;*background:url(../../images/knowledge/newindex/vt-1.gif) no-repeat 4px 2px; padding:0 0 0 16px; }
+.wjim2{background:url(../../images/knowledge/newindex/vt-1.gif) no-repeat 4px -35px;*background:url(../../images/knowledge/newindex/vt-1.gif) no-repeat 4px -37px; padding:0 0 0 16px; margin: 0 0 0 24px}
+.wjim3{background:url(../../images/knowledge/newindex/vt-1.gif) no-repeat 4px -76px;*background:url(../../images/knowledge/newindex/vt-1.gif) no-repeat 4px -78px; padding:0 0 0 16px; margin: 0 0 0 24px}
